@@ -14,6 +14,10 @@ socketio = SocketIO(app)
 def handle_message(message):
     print('received message: ' + message)
 
+@socketio.on("test")
+def handshake():
+    print("handshake")
+
 @app.route('/')
 def index():
     return render_template("index.html")
