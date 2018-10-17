@@ -61,6 +61,15 @@ h6 a {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
+h1 a1
+{
+	color: #123abc
+}
+h1 a2
+{
+	color: #f0f0f0
+}
+
 h1 a:focus,
 h1 a:hover,
 h2 a:focus,
