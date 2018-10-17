@@ -8,20 +8,21 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYWNoZSIsImEiOiJjam5kYXhibW8xODRxM3JwOHhhamxod
 function getLocation(_position) {
     position = _position;
     console.log(_position);
-    sock.emit('handshake', {"pos": _position['']});
+    sock.emit('handshake', {
+        "pos": _position['']
+    });
 }
-function respondToErrors(error)
-{
-    switch(error.code)
-    {
+
+function respondToErrors(error) {
+    switch (error.code) {
         case error.PERMISSION_DENIED:
-        break;
-    case error.POSITION_UNAVAILABLE:
-        break;
-    case error.TIMEOUT:
-        break;
-    case error.UNKNOWN_ERROR:
-        break;
+            break;
+        case error.POSITION_UNAVAILABLE:
+            break;
+        case error.TIMEOUT:
+            break;
+        case error.UNKNOWN_ERROR:
+            break;
     }
 }
 
@@ -37,35 +38,28 @@ Vue.component('maps', {
             active: false,
             header: "Panel Sterowania",
             map: null,
-            settings: []
+            settings: [],
+            street_view: 'streets'
         }
     },
     methods: {
-
+        log: function (txt) {
+            console.log(txt);
+        }
     },
     created: function () {
         console.log("created maps");
     },
     mounted: function () {
-        /*this.map = new google.maps.Map(this.$refs['map_ref'], {
-            center: {
-                lat: -34.397,
-                lng: 150.644
-            },
-            zoom: 8
-        });*/
         this.map = new mapboxgl.Map({
-            container:'map', 
-            style: 'mapbox://styles/mapbox/streets-v10'
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v9'
         });
-        console.log(this.map);
-        console.log(this.$refs['map_ref']);
-        
+
 
         /*this.informAboutLocalisation('green', "Lokalizacja", "Czy twoja lokalizacja to x,y ( z ) ?", 
         () => {console.log('accepted');},
         () => {console.log('denied');});*/
-        console.log("mounted maps");
         this.panel_name = header;
     }
 });
@@ -73,21 +67,36 @@ Vue.component('maps', {
 new Vue({
     el: "#app",
     data: {
+        activeGeoPrompt: false,
+        location: "Torun",
         showModal: false,
         showMaps: false,
         socket: null,
         sliders: [{
-                title: "Turystyka",
-                message: "Obcuj z kulturą na zupełnie nowym poziomie !",
+                title: "", // "Kultura",
+                message: "Obcuj z kulturą na zupełnie nowym poziomie...",
+                url: '../static/img/1920x1080/T04.jpg',
+                id: "button_id_2",
+                openMap: "utest 321"
+            }, {
+                title: "", // : "Turystyka",
+                message: "Poznaj swoje miasto na nowo...",
                 url: '../static/img/1920x1080/T02.jpg',
                 id: 'button_id_1',
                 openMap: "Testu 123"
             },
             {
-                title: "Kultura",
-                message: "lolz2",
+                title: "", // "Restauracje",
+                message: "Szukaj nowych miejsc...",
+                url: '../static/img/1920x1080/T03.jpg',
+                id: "button_id_3",
+                openMap: "utest 321"
+            },
+            {
+                title: "", // "Kino" ,
+                message: "Bądź na bieżąco...",
                 url: '../static/img/1920x1080/T01.jpg',
-                id: "button_id_2",
+                id: "button_id_4",
                 openMap: "utest 321"
             }
         ],
@@ -101,108 +110,121 @@ new Vue({
         gallery_items: [{
                 style: "s-portfolio__item cbp-item Filter_Cinema",
                 img_src: "../static/img/970x647/cinema.jpg",
-                title: "kino",
-                description: "Gdzie i co obejrzeć?"
+                title: "Kino",
+                description: "Bądź z nami na bieżąco w repertuarze kina ! Na podstawie twojej lokalizacji, znajdziemy kina w twojej okolicy i przedstawimy Ci oceny z topowych baz danych związanych z ocenaniem filmów ! Kliknij poniżej aby zacząć."
             },
             {
                 style: "s-portfolio__item cbp-item Filter_Food",
                 img_src: "../static/img/970x647/food.jpg",
-                title: "tytuł 2",
-                description: "description 2"
+                title: "Restauracje",
+                description: " Na podstawie recenzji użytkowników i twojej lokalizacji podpowiemy do której restauracji możecie się udać by mieć świetny czas. Klikij by zacząć."
             },
             {
                 style: "s-portfolio__item cbp-item Filter_Festivals",
                 img_src: "../static/img/970x647/concert.jpg",
-                title: "tytuł 3",
-                description: "description 3"
+                title: "Festyny",
+                description: "Wyrwij się z życiowej rutyny, nie siedź w domu i baw się ze znajomymi na festynach w całej polsce ! Na podstawie twojej lokalizacji i danych publicznych ze stron miasta podpowiemy kiedy i gdzie odbędzie się festyny i wydarzenia kulturalne. Klikij by zacząć."
             },
             {
                 style: "s-portfolio__item cbp-item Filter_Culture",
                 img_src: "../static/img/970x647/tourists.jpg",
-                title: "tytuł 4",
-                description: "description 4"
+                title: "Turystyka",
+                description: "Poznaj swoje miasto na nowo ! Na podstawie danych publicznych o zabytkach, podpowiemy co można ciekawego jeszcze zobaczyć w twoim mieście. Klikij by zacząć."
             },
             {
                 style: "s-portfolio__item cbp-item Filter_Culture",
                 img_src: "../static/img/970x647/muzeum.jpg",
-                title: "tytuł 5",
-                description: "description 5"
+                title: "Sztuka",
+                description: "Zachwyć się sztuką i kulturą ! dzięki danym publicznym podpowiemy gdzie znajdują się muzea i wystawy w twojej okolicy. Klikij by zacząć."
             },
+            {
+                style: "s-portfolio__item cbp-item Filter_Culture",
+                img_src: "../static/img/970x647/explore.jpg",
+                title: "Zwiedzaj z UE",
+                description: "Zobacz jak dofinansowania z Unii Europejskiej kształtują naszą rzeczywistość! Poprzez dane dotyczące dofinansowań, pokażemy Ci na mapie, co UE wprowadziła nowego do twojego życia. Klikij by zacząć."
+            }
         ],
         explore_text: "Odkrywaj swoje miasto na nowo z nami",
         articles: [{
                 src: "../static/img/1024x/food.jpg",
                 title: "O Projekcie",
                 subtitle: "Jedzenie",
-                text: "propaganda1"
+                text: "Znajdź z nami swoje nowe, ulubione miejsce w którym spędzisz niezapomniany czas z przyjaciółmi ! Na podstawie recenzji użytkowników i danych publicznych, podpowiemy gdzie świetnie zjeść, spotkać się z przyjaciółmi oraz spędzić czas w fenomenalnej atomsferze !"
             },
             {
                 src: "../static/img/1024x/city.jpg",
                 title: "O Projekcie",
                 subtitle: "Miasto",
-                text: "propaganda2"
+                text: "Odkryj życie kulturalne w swoim mieście ! Cały świat pełen sztuki, festynów i koncertów czeka żebyś go odkrył. Dzięki danym publicznym przedstawimy wam listę muzeów, galerii sztuki, festynów i koncertów w twojej okolicy !"
             },
             {
                 src: "../static/img/1024x/movie.jpg",
                 title: "O Projekcie",
                 subtitle: "Kino",
-                text: "propaganda3"
+                text: "Sprawdź gdzie i co możesz objerzeć w kinie ! Korzystając z danych publicznych zarekomendujemy Ci najciekawsze i najlepiej oceniane filmy, które aktualnie są wyświetlane w kinie w twojej okolicy."
             }
         ],
         figures: [{
-                id: "1",
-                suffix: "k",
-                text: "xd"
+                id: "941",
+                suffix: " miast",
+                text: "w naszej bazie danych"
             },
             {
-                id: "2",
-                suffix: "k",
-                text: "xdd"
+                id: "0",
+                suffix: "kin",
+                text: "w naszej bazie danych"
             },
             {
-                id: "3",
-                suffix: "k",
-                text: "xddd"
+                id: "0",
+                suffix: "zabytków",
+                text: "w naszej bazie danych"
             },
             {
-                id: "4",
-                suffix: "k",
-                text: "xdddd"
+                id: "0",
+                suffix: "festynów",
+                text: "w naszej bazie danych"
             }
         ]
     },
     delimiters: ['[%', '%]'],
     methods: {
-        informAboutLocalisation: function(_color, _title, _text, _accept_callback, _cancel_callback)
-        {
+        informAboutLocalisation: function (_color, _title, _text, _accept_callback, _cancel_callback) {
             this.$vs.dialog({
-                type:   'confirm',
-                color:  _color,
-                title:  _title,
-                text:   _text,
+                type: 'confirm',
+                color: _color,
+                title: _title,
+                text: _text,
                 accept: _accept_callback,
                 cancel: _cancel_callback
             });
         },
-        openMapWithFilter: function(filter)
-        {
+        openMapWithFilter: function (filter) {
             console.log(filter);
             this.showMaps = true;
+        },
+        localisationSetted: function (str) {
+            this.$vs.notify({
+                title: 'Lokalizacja Ustawiona !',
+                text: 'Ustawilismy twoją lokalizację na : ',
+                color: 'success',
+                icon: 'check'
+            });
         }
-        
-
     },
     created: function () {
+        this.activeGeoPrompt = false;
         this.socket = io.connect('http://' + document.domain + ':' + location.port);
+    },
+    mounted: function () {
         // get geolocation
         if (navigator.geolocation) {
 
-            navigator.geolocation.getCurrentPosition(getLocation, respondToErrors, 
-                                                    {enableHighAccuracy: true });
+            navigator.geolocation.getCurrentPosition(getLocation, respondToErrors, {
+                enableHighAccuracy: true
+            });
             this.socket.emit('handshake');
             sock = this.socket;
-        } else {
-        }
 
+        } else {}
     }
 });
