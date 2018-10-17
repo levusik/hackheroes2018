@@ -1,0 +1,919 @@
+1	Warszawa	powiat Warszawa	mazowieckie	1 724 404	517 km²
+2	Kraków	powiat Kraków	małopolskie	758 992	327 km²
+3	Łódź	powiat Łódź	łódzkie	711 332	293 km²
+4	Wrocław	powiat Wrocław	dolnośląskie	632 067	293 km²
+5	Poznań	powiat Poznań	wielkopolskie	548 028	262 km²
+6	Gdańsk	powiat Gdańsk	pomorskie	461 531	262 km²
+7	Szczecin	powiat Szczecin	zachodniopomorskie	408 172	301 km²
+8	Bydgoszcz	powiat Bydgoszcz	kujawsko-pomorskie	359 428	176 km²
+9	Lublin	powiat Lublin	lubelskie	343 598	147 km²
+10	Katowice	powiat Katowice	śląskie	304 362	165 km²
+11	Białystok	powiat Białystok	podlaskie	295 282	102 km²
+12	Gdynia	powiat Gdynia	pomorskie	248 042	135 km²
+13	Częstochowa	powiat Częstochowa	śląskie	232 318	160 km²
+14	Radom	powiat Radom	mazowieckie	218 466	112 km²
+15	Sosnowiec	powiat Sosnowiec	śląskie	211 275	91 km²
+16	Toruń	powiat Toruń	kujawsko-pomorskie	203 447	116 km²
+17	Kielce	powiat Kielce	świętokrzyskie	199 870	110 km²
+18	Gliwice	powiat Gliwice	śląskie	185 450	134 km²
+19	Rzeszów	powiat Rzeszów	podkarpackie	183 108	117 km²
+20	Zabrze	powiat Zabrze	śląskie	178 357	80 km²
+21	Olsztyn	powiat Olsztyn	warmińsko-mazurskie	174 675	88 km²
+22	Bielsko-Biała	powiat Bielsko-Biała	śląskie	173 699	125 km²
+23	Bytom	powiat Bytom	śląskie	173 439	69 km²
+24	Ruda Śląska	powiat Ruda Śląska	śląskie	141 521	78 km²
+25	Rybnik	powiat Rybnik	śląskie	140 173	148 km²
+26	Tychy	powiat Tychy	śląskie	128 799	82 km²
+27	Gorzów Wielkopolski	powiat Gorzów Wielkopolski	lubuskie	124 344	86 km²
+28	Dąbrowa Górnicza	powiat Dąbrowa Górnicza	śląskie	123 994	189 km²
+29	Elbląg	powiat Elbląg	warmińsko-mazurskie	122 899	80 km²
+30	Płock	powiat Płock	mazowieckie	122 815	88 km²
+31	Opole	powiat Opole	opolskie	120 146	97 km²
+32	Zielona Góra	powiat Zielona Góra	lubuskie	118 405	58 km²
+33	Wałbrzych	powiat Wałbrzych	dolnośląskie	117 926	85 km²
+34	Włocławek	powiat Włocławek	kujawsko-pomorskie	114 885	84 km²
+35	Tarnów	powiat Tarnów	małopolskie	112 120	72 km²
+36	Chorzów	powiat Chorzów	śląskie	110 761	33 km²
+37	Koszalin	powiat Koszalin	zachodniopomorskie	109 170	98 km²
+38	Kalisz	powiat Kalisz	wielkopolskie	103 997	69 km²
+39	Legnica	powiat Legnica	dolnośląskie	101 992	56 km²
+40	Grudziądz	powiat Grudziądz	kujawsko-pomorskie	97 676	58 km²
+41	Słupsk	powiat Słupsk	pomorskie	93 936	43 km²
+42	Jaworzno	powiat Jaworzno	śląskie	93 708	153 km²
+43	Jastrzębie-Zdrój	powiat Jastrzębie-Zdrój	śląskie	91 235	85 km²
+44	Nowy Sącz	powiat Nowy Sącz	małopolskie	83 943	58 km²
+45	Jelenia Góra	powiat Jelenia Góra	dolnośląskie	81 985	109 km²
+46	Konin	powiat Konin	wielkopolskie	77 224	82 km²
+47	Siedlce	powiat Siedlce	mazowieckie	76 347	32 km²
+48	Piotrków Trybunalski	powiat Piotrków Trybunalski	łódzkie	75 903	67 km²
+49	Mysłowice	powiat Mysłowice	śląskie	75 129	66 km²
+50	Inowrocław	powiat inowrocławski	kujawsko-pomorskie	75 001	30 km²
+51	Piła	powiat pilski	wielkopolskie	74 609	103 km²
+52	Lubin	powiat lubiński	dolnośląskie	74 053	41 km²
+53	Ostrów Wielkopolski	powiat ostrowski	wielkopolskie	72 890	42 km²
+54	Ostrowiec Świętokrzyski	powiat ostrowiecki	świętokrzyskie	72 277	46 km²
+55	Gniezno	powiat gnieźnieński	wielkopolskie	69 883	41 km²
+56	Stargard	powiat stargardzki	zachodniopomorskie	69 328	48 km²
+57	Suwałki	powiat Suwałki	podlaskie	69 317	66 km²
+58	Głogów	powiat głogowski	dolnośląskie	68 997	35 km²
+59	Siemianowice Śląskie	powiat Siemianowice Śląskie	śląskie	68 844	25 km²
+60	Pabianice	powiat pabianicki	łódzkie	67 688	33 km²
+61	Chełm	powiat Chełm	lubelskie	65 481	35 km²
+62	Zamość	powiat Zamość	lubelskie	65 255	30 km²
+63	Tomaszów Mazowiecki	powiat tomaszowski	łódzkie	64 893	42 km²
+64	Leszno	powiat Leszno	wielkopolskie	64 589	32 km²
+65	Stalowa Wola	powiat stalowowolski	podkarpackie	63 692	83 km²
+66	Przemyśl	powiat Przemyśl	podkarpackie	63 638	46 km²
+67	Kędzierzyn-Koźle	powiat kędzierzyńsko-kozielski	opolskie	63 194	124 km²
+68	Łomża	powiat Łomża	podlaskie	62 711	33 km²
+69	Żory	powiat Żory	śląskie	62 038	65 km²
+70	Mielec	powiat mielecki	podkarpackie	61 096	47 km²
+71	Tarnowskie Góry	powiat tarnogórski	śląskie	60 957	84 km²
+72	Tczew	powiat tczewski	pomorskie	60 610	22 km²
+73	Ełk	powiat ełcki	warmińsko-mazurskie	59 790	21 km²
+74	Pruszków	powiat pruszkowski	mazowieckie	59 570	19 km²
+75	Bełchatów	powiat bełchatowski	łódzkie	59 565	35 km²
+76	Świdnica	powiat świdnicki	dolnośląskie	59 182	22 km²
+77	Będzin	powiat będziński	śląskie	58 425	37 km²
+78	Biała Podlaska	powiat Biała Podlaska	lubelskie	57 658	49 km²
+79	Zgierz	powiat zgierski	łódzkie	57 503	42 km²
+80	Piekary Śląskie	powiat Piekary Śląskie	śląskie	57 148	40 km²
+81	Racibórz	powiat raciborski	śląskie	55 930	75 km²
+82	Legionowo	powiat legionowski	mazowieckie	54 231	14 km²
+83	Ostrołęka	powiat Ostrołęka	mazowieckie	52 917	29 km²
+84	Świętochłowice	powiat Świętochłowice	śląskie	51 824	13 km²
+85	Zawiercie	powiat zawierciański	śląskie	51 258	85 km²
+86	Starachowice	powiat starachowicki	świętokrzyskie	51 158	32 km²
+87	Wejherowo	powiat wejherowski	pomorskie	50 340	27 km²
+88	Puławy	powiat puławski	lubelskie	49 100	50 km²
+89	Wodzisław Śląski	powiat wodzisławski	śląskie	48 731	50 km²
+90	Skierniewice	powiat Skierniewice	łódzkie	48 634	35 km²
+91	Starogard Gdański	powiat starogardzki	pomorskie	48 621	25 km²
+92	Tarnobrzeg	powiat Tarnobrzeg	podkarpackie	48 217	85 km²
+93	Radomsko	powiat radomszczański	łódzkie	47 643	51 km²
+94	Skarżysko-Kamienna	powiat skarżyski	świętokrzyskie	47 538	64 km²
+95	Rumia	powiat wejherowski	pomorskie	47 374	30 km²
+96	Krosno	powiat Krosno	podkarpackie	47 223	44 km²
+97	Kołobrzeg	powiat kołobrzeski	zachodniopomorskie	46 897	26 km²
+98	Dębica	powiat dębicki	podkarpackie	46 854	34 km²
+99	Kutno	powiat kutnowski	łódzkie	45 657	34 km²
+100	Otwock	powiat otwocki	mazowieckie	45 044	47 km²
+101	Nysa	powiat nyski	opolskie	44 899	27,5 km²
+102	Piaseczno	powiat piaseczyński	mazowieckie	44 869	16,2 km²
+103	Ciechanów	powiat ciechanowski	mazowieckie	44 797	33 km²
+104	Zduńska Wola	powiat zduńskowolski	łódzkie	43 615	25 km²
+105	Sieradz	powiat sieradzki	łódzkie	43 356	51 km²
+106	Świnoujście	powiat Świnoujście	zachodniopomorskie	41 371	197 km²
+107	Żyrardów	powiat żyrardowski	mazowieckie	41 096	14 km²
+108	Szczecinek	powiat szczecinecki	zachodniopomorskie	40 620	48 km²
+109	Chojnice	powiat chojnicki	pomorskie	40 226	21 km²
+110	Świdnik	powiat świdnicki	lubelskie	40 225	20 km²
+111	Mińsk Mazowiecki	powiat miński	mazowieckie	39 880	13 km²
+112	Mikołów	powiat mikołowski	śląskie	39 776	79 km²
+113	Nowa Sól	powiat nowosolski	lubuskie	39 721	22 km²
+114	Oświęcim	powiat oświęcimski	małopolskie	39 664	30 km²
+115	Bolesławiec	powiat bolesławiecki	dolnośląskie	39 603	24 km²
+116	Jarosław	powiat jarosławski	podkarpackie	39 138	35 km²
+117	Knurów	powiat gliwicki	śląskie	39 090	34 km²
+118	Sanok	powiat sanocki	podkarpackie	39 027	38 km²
+119	Malbork	powiat malborski	pomorskie	39 022	17 km²
+120	Kwidzyn	powiat kwidzyński	pomorskie	38 867	22 km²
+121	Żary	powiat żarski	lubuskie	38 856	33 km²
+122	Chrzanów	powiat chrzanowski	małopolskie	38 117	38,3 km²
+123	Sopot	powiat Sopot	pomorskie	37 903	17 km²
+124	Wołomin	powiat wołomiński	mazowieckie	37 505	17,2 km²
+125	Sochaczew	powiat sochaczewski	mazowieckie	37 480	26 km²
+126	Oleśnica	powiat oleśnicki	dolnośląskie	37 303	21 km²
+127	Brzeg	powiat brzeski	opolskie	36 980	15 km²
+128	Olkusz	powiat olkuski	małopolskie	36 724	25,7 km²
+129	Jasło	powiat jasielski	podkarpackie	36 363	37 km²
+130	Cieszyn	powiat cieszyński	śląskie	35 918	29 km²
+131	Kraśnik	powiat kraśnicki	lubelskie	35 788	26 km²
+132	Czechowice-Dziedzice	powiat bielski	śląskie	35 684	32,9 km²
+133	Lębork	powiat lęborski	pomorskie	35 526	18 km²
+134	Dzierżoniów	powiat dzierżoniowski	dolnośląskie	34 428	20 km²
+135	Ostróda	powiat ostródzki	warmińsko-mazurskie	33 963	14 km²
+136	Nowy Targ	powiat nowotarski	małopolskie	33 672	51 km²
+137	Police	powiat policki	zachodniopomorskie	33 625	37,3 km²
+138	Iława	powiat iławski	warmińsko-mazurskie	33 338	22 km²
+139	Czeladź	powiat będziński	śląskie	32 940	16 km²
+140	Myszków	powiat myszkowski	śląskie	32 619	74 km²
+141	Oława	powiat oławski	dolnośląskie	32 240	27 km²
+142	Żywiec	powiat żywiecki	śląskie	32 083	51 km²
+143	Zgorzelec	powiat zgorzelecki	dolnośląskie	31 890	16 km²
+144	Ząbki	powiat wołomiński	mazowieckie	31 884	11 km²
+145	Bielawa	powiat dzierżoniowski	dolnośląskie	31 186	36 km²
+146	Swarzędz	powiat poznański	wielkopolskie	31 084	8,2 km²
+147	Mława	powiat mławski	mazowieckie	30 880	35 km²
+148	Łuków	powiat łukowski	lubelskie	30 757	36 km²
+149	Luboń	powiat poznański	wielkopolskie	30 676	14 km²
+150	Augustów	powiat augustowski	podlaskie	30 610	81 km²
+151	Bochnia	powiat bocheński	małopolskie	30 219	30 km²
+152	Śrem	powiat śremski	wielkopolskie	30 152	12,4 km²
+153	Giżycko	powiat giżycki	warmińsko-mazurskie	29 947	14 km²
+154	Grodzisk Mazowiecki	powiat grodziski	mazowieckie	29 907	13,2 km²
+155	Września	powiat wrzesiński	wielkopolskie	29 552	12,7 km²
+156	Łowicz	powiat łowicki	łódzkie	29 420	23 km²
+157	Krotoszyn	powiat krotoszyński	wielkopolskie	29 397	22,5 km²
+158	Marki	powiat wołomiński	mazowieckie	29 032	26 km²
+159	Pruszcz Gdański	powiat gdański	pomorskie	28 858	16 km²
+160	Brodnica	powiat brodnicki	kujawsko-pomorskie	28 579	23 km²
+161	Czerwionka-Leszczyny	powiat rybnicki	śląskie	28 480	37,6 km²
+162	Gorlice	powiat gorlicki	małopolskie	28 415	24 km²
+163	Nowy Dwór Mazowiecki	powiat nowodworski	mazowieckie	28 287	28 km²
+164	Turek	powiat turecki	wielkopolskie	28 100	16 km²
+165	Kętrzyn	powiat kętrzyński	warmińsko-mazurskie	28 051	10 km²
+166	Kłodzko	powiat kłodzki	dolnośląskie	27 997	25 km²
+167	Zakopane	powiat tatrzański	małopolskie	27 721	84 km²
+168	Wyszków	powiat wyszkowski	mazowieckie	27 222	20,8 km²
+169	Biłgoraj	powiat biłgorajski	lubelskie	27 169	21 km²
+170	Żagań	powiat żagański	lubuskie	26 492	40 km²
+171	Świecie	powiat świecki	kujawsko-pomorskie	26 395	11,9 km²
+172	Bielsk Podlaski	powiat bielski	podlaskie	26 336	27 km²
+173	Jarocin	powiat jarociński	wielkopolskie	26 311	14,6 km²
+174	Wałcz	powiat wałecki	zachodniopomorskie	26 231	38 km²
+175	Pszczyna	powiat pszczyński	śląskie	25 999	22,5 km²
+176	Wągrowiec	powiat wągrowiecki	wielkopolskie	25 178	18 km²
+177	Białogard	powiat białogardzki	zachodniopomorskie	24 722	26 km²
+178	Sandomierz	powiat sandomierski	świętokrzyskie	24 552	29 km²
+179	Kluczbork	powiat kluczborski	opolskie	24 544	12,4 km²
+180	Bartoszyce	powiat bartoszycki	warmińsko-mazurskie	24 527	11 km²
+181	Szczytno	powiat szczycieński	warmińsko-mazurskie	24 489	11 km²
+182	Lubliniec	powiat lubliniecki	śląskie	24 316	89 km²
+183	Skawina	powiat krakowski	małopolskie	24 260	20,5 km²
+184	Kościan	powiat kościański	wielkopolskie	24 011	9 km²
+185	Jawor	powiat jaworski	dolnośląskie	23 937	19 km²
+186	Kościerzyna	powiat kościerski	pomorskie	23 701	16 km²
+187	Wieluń	powiat wieluński	łódzkie	23 546	16,9 km²
+188	Nowa Ruda	powiat kłodzki	dolnośląskie	23 236	37 km²
+189	Świebodzice	powiat świdnicki	dolnośląskie	23 152	30 km²
+190	Reda	powiat wejherowski	pomorskie	23 135	34 km²
+191	Koło	powiat kolski	wielkopolskie	23 026	14 km²
+192	Piastów	powiat pruszkowski	mazowieckie	22 826	6 km²
+193	Ostrów Mazowiecka	powiat ostrowski	mazowieckie	22 796	22 km²
+194	Goleniów	powiat goleniowski	zachodniopomorskie	22 776	11,8 km²
+195	Polkowice	powiat polkowicki	dolnośląskie	22 638	23,7 km²
+196	Środa Wielkopolska	powiat średzki	wielkopolskie	22 572	18 km²
+197	Lubartów	powiat lubartowski	lubelskie	22 543	14 km²
+198	Płońsk	powiat płoński	mazowieckie	22 494	12 km²
+199	Łaziska Górne	powiat mikołowski	śląskie	22 460	20 km²
+200	Zambrów	powiat zambrowski	podlaskie	22 451	19 km²
+201	Grajewo	powiat grajewski	podlaskie	22 246	19 km²
+202	Mrągowo	powiat mrągowski	warmińsko-mazurskie	22 190	15 km²
+203	Opoczno	powiat opoczyński	łódzkie	22 188	24,8 km²
+204	Świebodzin	powiat świebodziński	lubuskie	22 064	16,9 km²
+205	Lubań	powiat lubański	dolnośląskie	21 921	16 km²
+206	Rydułtowy	powiat wodzisławski	śląskie	21 847	15 km²
+207	Prudnik	powiat prudnicki	opolskie	21 778	20,5 km²
+208	Gryfino	powiat gryfiński	zachodniopomorskie	21 578	9,6 km²
+209	Hajnówka	powiat hajnowski	podlaskie	21 559	21 km²
+210	Działdowo	powiat działdowski	warmińsko-mazurskie	21 552	11 km²
+211	Wieliczka	powiat wielicki	małopolskie	21 318	13,4 km²
+212	Aleksandrów Łódzki	powiat zgierski	łódzkie	21 245	13,8 km²
+213	Andrychów	powiat wadowicki	małopolskie	21 111	10,3 km²
+214	Kobyłka	powiat wołomiński	mazowieckie	20 855	20 km²
+215	Rawicz	powiat rawicki	wielkopolskie	20 846	7,7 km²
+216	Chełmno	powiat chełmiński	kujawsko-pomorskie	20 622	14 km²
+217	Trzebinia	powiat chrzanowski	małopolskie	20 302	31,9 km²
+218	Końskie	powiat konecki	świętokrzyskie	20 281	17,7 km²
+219	Gostyń	powiat gostyński	wielkopolskie	20 183	11,1 km²
+220	Ozorków	powiat zgierski	łódzkie	20 175	15 km²
+221	Kamienna Góra	powiat kamiennogórski	dolnośląskie	20 014	18 km²
+222	Orzesze	powiat mikołowski	śląskie	20 000	84 km²
+223	Tomaszów Lubelski	powiat tomaszowski	lubelskie	19 983	13 km²
+224	Łęczna	powiat łęczyński	lubelskie	19 926	19 km²
+225	Józefów	powiat otwocki	mazowieckie	19 914	24 km²
+226	Bieruń	powiat bieruńsko-lędziński	śląskie	19 696	40 km²
+227	Krasnystaw	powiat krasnostawski	lubelskie	19 539	42 km²
+228	Pisz	powiat piski	warmińsko-mazurskie	19 530	10,1 km²
+229	Chodzież	powiat chodzieski	wielkopolskie	19 399	13 km²
+230	Pionki	powiat radomski	mazowieckie	19 382	18 km²
+231	Sulejówek	powiat miński	mazowieckie	19 311	19 km²
+232	Wadowice	powiat wadowicki	małopolskie	19 309	10,5 km²
+233	Pułtusk	powiat pułtuski	mazowieckie	19 228	23 km²
+234	Nakło nad Notecią	powiat nakielski	kujawsko-pomorskie	19 193	10,6 km²
+235	Kęty	powiat oświęcimski	małopolskie	19 104	23,1 km²
+236	Gostynin	powiat gostyniński	mazowieckie	19 092	32 km²
+237	Szamotuły	powiat szamotulski	wielkopolskie	19 020	11,1 km²
+238	Sokółka	powiat sokólski	podlaskie	18 765	18,6 km²
+239	Sokołów Podlaski	powiat sokołowski	mazowieckie	18 720	18 km²
+240	Pyskowice	powiat gliwicki	śląskie	18 642	31 km²
+241	Złotów	powiat złotowski	wielkopolskie	18 593	12 km²
+242	Hrubieszów	powiat hrubieszowski	lubelskie	18 585	33 km²
+243	Międzyrzecz	powiat międzyrzecki	lubuskie	18 552	10,3 km²
+244	Sierpc	powiat sierpecki	mazowieckie	18 491	19 km²
+245	Bogatynia	powiat zgorzelecki	dolnośląskie	18 486	59,9 km²
+246	Strzelce Opolskie	powiat strzelecki	opolskie	18 451	30 km²
+247	Oborniki	powiat obornicki	wielkopolskie	18 421	14,1 km²
+248	Myślenice	powiat myślenicki	małopolskie	18 365	30,2 km²
+249	Kozienice	powiat kozienicki	mazowieckie	18 277	10,5 km²
+250	Kostrzyn nad Odrą	powiat gorzowski	lubuskie	18 155	46 km²
+251	Łańcut	powiat łańcucki	podkarpackie	18 074	19 km²
+252	Łask	powiat łaski	łódzkie	18 029	15,7 km²
+253	Radlin	powiat wodzisławski	śląskie	17 984	13 km²
+254	Rawa Mazowiecka	powiat rawski	łódzkie	17 819	14 km²
+255	Konstantynów Łódzki	powiat pabianicki	łódzkie	17 804	27 km²
+256	Pleszew	powiat pleszewski	wielkopolskie	17 759	13,4 km²
+257	Sulechów	powiat zielonogórski	lubuskie	17 461	6,9 km²
+258	Zielonka	powiat wołomiński	mazowieckie	17 398	79 km²
+259	Konstancin-Jeziorna	powiat piaseczyński	mazowieckie	17 391	17,7 km²
+260	Braniewo	powiat braniewski	warmińsko-mazurskie	17 385	12 km²
+261	Libiąż	powiat chrzanowski	małopolskie	17 355	35,9 km²
+262	Przasnysz	powiat przasnyski	mazowieckie	17 326	25 km²
+263	Trzcianka	powiat czarnkowsko-trzcianecki	wielkopolskie	17 301	18,3 km²
+264	Garwolin	powiat garwoliński	mazowieckie	17 146	22 km²
+265	Międzyrzec Podlaski	powiat bialski	lubelskie	17 117	21 km²
+266	Brzesko	powiat brzeski	małopolskie	17 097	11,8 km²
+267	Dęblin	powiat rycki	lubelskie	17 057	38 km²
+268	Radzionków	powiat tarnogórski	śląskie	17 025	13 km²
+269	Gubin	powiat krośnieński	lubuskie	17 006	21 km²
+270	Nowogard	powiat goleniowski	zachodniopomorskie	16 937	12,4 km²
+271	Krapkowice	powiat krapkowicki	opolskie	16 924	21 km²
+272	Gryfice	powiat gryficki	zachodniopomorskie	16 898	12,4 km²
+273	Słubice	powiat słubicki	lubuskie	16 880	19,2 km²
+274	Bytów	powiat bytowski	pomorskie	16 842	8,7 km²
+275	Rypin	powiat rypiński	kujawsko-pomorskie	16 834	10 km²
+276	Strzegom	powiat świdnicki	dolnośląskie	16 769	20,5 km²
+277	Lędziny	powiat bieruńsko-lędziński	śląskie	16 737	32 km²
+278	Busko-Zdrój	powiat buski	świętokrzyskie	16 694	12,3 km²
+279	Łomianki	powiat warszawski zachodni	mazowieckie	16 639	8,4 km²
+280	Olecko	powiat olecki	warmińsko-mazurskie	16 533	11,5 km²
+281	Grójec	powiat grójecki	mazowieckie	16 453	8,6 km²
+282	Milanówek	powiat grodziski	mazowieckie	16 410	13 km²
+283	Lidzbark Warmiński	powiat lidzbarski	warmińsko-mazurskie	16 352	14 km²
+284	Ustka	powiat słupski	pomorskie	16 263	10 km²
+285	Boguszów-Gorce	powiat wałbrzyski	dolnośląskie	16 216	27 km²
+286	Radzyń Podlaski	powiat radzyński	lubelskie	16 188	19 km²
+287	Złotoryja	powiat złotoryjski	dolnośląskie	16 167	12 km²
+288	Namysłów	powiat namysłowski	opolskie	16 123	22,6 km²
+289	Łapy	powiat białostocki	podlaskie	16 005	12,1 km²
+290	Ustroń	powiat cieszyński	śląskie	16 003	59 km²
+291	Jelcz-Laskowice	powiat oławski	dolnośląskie	15 959	17,1 km²
+292	Jędrzejów	powiat jędrzejowski	świętokrzyskie	15 851	11,4 km²
+293	Przeworsk	powiat przeworski	podkarpackie	15 779	22 km²
+294	Świdwin	powiat świdwiński	zachodniopomorskie	15 725	22 km²
+295	Choszczno	powiat choszczeński	zachodniopomorskie	15 716	9,6 km²
+296	Ząbkowice Śląskie	powiat ząbkowicki	dolnośląskie	15 707	13,7 km²
+297	Ropczyce	powiat ropczycko-sędziszowski	podkarpackie	15 683	47,1 km²
+298	Solec Kujawski	powiat bydgoski	kujawsko-pomorskie	15 642	18,7 km²
+299	Nisko	powiat niżański	podkarpackie	15 484	61 km²
+300	Władysławowo	powiat pucki	pomorskie	15 400	39,2 km²
+301	Staszów	powiat staszowski	świętokrzyskie	15 384	26,9 km²
+302	Limanowa	powiat limanowski	małopolskie	15 133	19 km²
+303	Lipno	powiat lipnowski	kujawsko-pomorskie	14 968	11 km²
+304	Chełmża	powiat toruński	kujawsko-pomorskie	14 967	7 km²
+305	Nowy Tomyśl	powiat nowotomyski	wielkopolskie	14 899	5,2 km²
+306	Kartuzy	powiat kartuski	pomorskie	14 866	6,8 km²
+307	Głowno	powiat zgierski	łódzkie	14 814	20 km²
+308	Łęczyca	powiat łęczycki	łódzkie	14 786	9 km²
+309	Siemiatycze	powiat siemiatycki	podlaskie	14 766	36 km²
+310	Skoczów	powiat cieszyński	śląskie	14 741	9,9 km²
+311	Kępno	powiat kępiński	wielkopolskie	14 577	7,8 km²
+312	Lubsko	powiat żarski	lubuskie	14 554	12,5 km²
+313	Ostrzeszów	powiat ostrzeszowski	wielkopolskie	14 515	12,1 km²
+314	Człuchów	powiat człuchowski	pomorskie	14 385	13 km²
+315	Leżajsk	powiat leżajski	podkarpackie	14 363	21 km²
+316	Morąg	powiat ostródzki	warmińsko-mazurskie	14 361	6,1 km²
+317	Grodzisk Wielkopolski	powiat grodziski	wielkopolskie	14 339	18,2 km²
+318	Wschowa	powiat wschowski	lubuskie	14 313	8,4 km²
+319	Nidzica	powiat nidzicki	warmińsko-mazurskie	14 300	6,9 km²
+320	Barlinek	powiat myśliborski	zachodniopomorskie	14 263	17,6 km²
+321	Głuchołazy	powiat nyski	opolskie	14 257	6,8 km²
+322	Pszów	powiat wodzisławski	śląskie	14 252	20 km²
+323	Darłowo	powiat sławieński	zachodniopomorskie	14 229	20 km²
+324	Żnin	powiat żniński	kujawsko-pomorskie	14 181	8,4 km²
+325	Chojnów	powiat legnicki	dolnośląskie	14 071	5 km²
+326	Dębno	powiat myśliborski	zachodniopomorskie	14 043	19,5 km²
+327	Wąbrzeźno	powiat wąbrzeski	kujawsko-pomorskie	14 040	9 km²
+328	Słupca	powiat słupecki	wielkopolskie	14 019	10 km²
+329	Tuchola	powiat tucholski	kujawsko-pomorskie	13 949	17,7 km²
+330	Gołdap	powiat gołdapski	warmińsko-mazurskie	13 808	17,2 km²
+331	Włodawa	powiat włodawski	lubelskie	13 643	18 km²
+332	Wolsztyn	powiat wolsztyński	wielkopolskie	13 586	4,8 km²
+333	Koluszki	powiat łódzki wschodni	łódzkie	13 419	9,9 km²
+334	Kłobuck	powiat kłobucki	śląskie	13 246	47,5 km²
+335	Złocieniec	powiat drawski	zachodniopomorskie	13 224	32,3 km²
+336	Rabka-Zdrój	powiat nowotarski	małopolskie	13 154	36,3 km²
+337	Brwinów	powiat pruszkowski	mazowieckie	13 090	10,1 km²
+338	Mosina	powiat poznański	wielkopolskie	13 065	13,5 km²
+339	Głubczyce	powiat głubczycki	opolskie	12 990	12,5 km²
+340	Trzebnica	powiat trzebnicki	dolnośląskie	12 945	8,4 km²
+341	Golub-Dobrzyń	powiat golubsko-dobrzyński	kujawsko-pomorskie	12 945	8 km²
+342	Sławno	powiat sławieński	zachodniopomorskie	12 898	16 km²
+343	Pyrzyce	powiat pyrzycki	zachodniopomorskie	12 816	38,8 km²
+344	Węgrów	powiat węgrowski	mazowieckie	12 796	36 km²
+345	Wołów	powiat wołowski	dolnośląskie	12 646	18,5 km²
+346	Brzeziny	powiat brzeziński	łódzkie	12 577	22 km²
+347	Błonie	powiat warszawski zachodni	mazowieckie	12 570	9,1 km²
+348	Strzelin	powiat strzeliński	dolnośląskie	12 556	10,3 km²
+349	Brzeg Dolny	powiat wołowski	dolnośląskie	12 536	17,2 km²
+350	Lubaczów	powiat lubaczowski	podkarpackie	12 517	26 km²
+351	Aleksandrów Kujawski	powiat aleksandrowski	kujawsko-pomorskie	12 515	7 km²
+352	Pasłęk	powiat elbląski	warmińsko-mazurskie	12 453	10,6 km²
+353	Góra	powiat górowski	dolnośląskie	12 403	13,7 km²
+354	Mogilno	powiat mogileński	kujawsko-pomorskie	12 369	8,3 km²
+355	Szprotawa	powiat żagański	lubuskie	12 329	11 km²
+356	Janów Lubelski	powiat janowski	lubelskie	12 092	14,8 km²
+357	Szydłowiec	powiat szydłowiecki	mazowieckie	12 064	21,9 km²
+358	Krosno Odrzańskie	powiat krośnieński	lubuskie	11 983	8,2 km²
+359	Zdzieszowice	powiat krapkowicki	opolskie	11 978	12,4 km²
+360	Drawsko Pomorskie	powiat drawski	zachodniopomorskie	11 878	22,3 km²
+361	Dąbrowa Tarnowska	powiat dąbrowski	małopolskie	11 846	23,1 km²
+362	Miechów	powiat miechowski	małopolskie	11 832	15,5 km²
+363	Milicz	powiat milicki	dolnośląskie	11 758	13,5 km²
+364	Warka	powiat grójecki	mazowieckie	11 727	26,8 km²
+365	Węgorzewo	powiat węgorzewski	warmińsko-mazurskie	11 699	10,9 km²
+366	Góra Kalwaria	powiat piaseczyński	mazowieckie	11 685	13,7 km²
+367	Brzeszcze	powiat oświęcimski	małopolskie	11 637	19 km²
+368	Myślibórz	powiat myśliborski	zachodniopomorskie	11 614	15 km²
+369	Wronki	powiat szamotulski	wielkopolskie	11 549	5,8 km²
+370	Kowary	powiat jeleniogórski	dolnośląskie	11 537	37 km²
+371	Nowa Dęba	powiat tarnobrzeski	podkarpackie	11 507	16,7 km²
+372	Puck	powiat pucki	pomorskie	11 396	5 km²
+373	Koronowo	powiat bydgoski	kujawsko-pomorskie	11 384	28,2 km²
+374	Radzymin	powiat wołomiński	mazowieckie	11 378	23,4 km²
+375	Rogoźno	powiat obornicki	wielkopolskie	11 309	11,2 km²
+376	Pińczów	powiat pińczowski	świętokrzyskie	11 306	14,3 km²
+377	Wisła	powiat cieszyński	śląskie	11 261	109 km²
+378	Czarnków	powiat czarnkowsko-trzcianecki	wielkopolskie	11 256	10 km²
+379	Nowe Miasto Lubawskie	powiat nowomiejski	warmińsko-mazurskie	11 241	11 km²
+380	Krynica-Zdrój	powiat nowosądecki	małopolskie	11 165	39,7 km²
+381	Parczew	powiat parczewski	lubelskie	10 953	8,1 km²
+382	Miastko	powiat bytowski	pomorskie	10 926	5,7 km²
+383	Niepołomice	powiat wielicki	małopolskie	10 822	27,4 km²
+384	Międzychód	powiat międzychodzki	wielkopolskie	10 805	7 km²
+385	Ciechocinek	powiat aleksandrowski	kujawsko-pomorskie	10 791	15 km²
+386	Biskupiec	powiat olsztyński	warmińsko-mazurskie	10 626	5 km²
+387	Dobre Miasto	powiat olsztyński	warmińsko-mazurskie	10 599	4,9 km²
+388	Kolno	powiat kolneński	podlaskie	10 579	25 km²
+389	Ożarów Mazowiecki	powiat warszawski zachodni	mazowieckie	10 561	5,7 km²
+390	Włoszczowa	powiat włoszczowski	świętokrzyskie	10 545	30,3 km²
+391	Wasilków	powiat białostocki	podlaskie	10 511	28,3 km²
+392	Bystrzyca Kłodzka	powiat kłodzki	dolnośląskie	10 476	10,7 km²
+393	Drezdenko	powiat strzelecko-drezdenecki	lubuskie	10 447	10,7 km²
+394	Łobez	powiat łobeski	zachodniopomorskie	10 438	12,8 km²
+395	Bukowno	powiat olkuski	małopolskie	10 411	65 km²
+396	Murowana Goślina	powiat poznański	wielkopolskie	10 386	7,2 km²
+397	Syców	powiat oleśnicki	dolnośląskie	10 385	17,1 km²
+398	Mońki	powiat moniecki	podlaskie	10 352	7,7 km²
+399	Sztum	powiat sztumski	pomorskie	10 332	4,6 km²
+400	Krzeszowice	powiat krakowski	małopolskie	10 268	17 km²
+401	Sulęcin	powiat sulęciński	lubuskie	10 265	8,6 km²
+402	Kudowa-Zdrój	powiat kłodzki	dolnośląskie	10 241	34 km²
+403	Trzebiatów	powiat gryficki	zachodniopomorskie	10 202	10,3 km²
+404	Strzelce Krajeńskie	powiat strzelecko-drezdenecki	lubuskie	10 172	5,5 km²
+405	Karczew	powiat otwocki	mazowieckie	10 160	28,1 km²
+406	Maków Mazowiecki	powiat makowski	mazowieckie	10 118	10 km²
+407	Lubawa	powiat iławski	warmińsko-mazurskie	10 093	17 km²
+408	Nowy Dwór Gdański	powiat nowodworski	pomorskie	10 083	5,1 km²
+409	Czersk	powiat chojnicki	pomorskie	10 043	9,7 km²
+410	Ryki	powiat rycki	lubelskie	9 955	27,2 km²
+411	Skwierzyna	powiat międzyrzecki	lubuskie	9 869	35,9 km²
+412	Blachownia	powiat częstochowski	śląskie	9 839	36,7 km²
+413	Puszczykowo	powiat poznański	wielkopolskie	9 819	16 km²
+414	Kożuchów	powiat nowosolski	lubuskie	9 752	5,9 km²
+415	Czarna Białostocka	powiat białostocki	podlaskie	9 671	14,3 km²
+416	Poniatowa	powiat opolski	lubelskie	9 646	15,3 km²
+417	Pieszyce	powiat dzierżoniowski	dolnośląskie	9 626	63,6 km²
+418	Olesno	powiat oleski	opolskie	9 597	15,1 km²
+419	Opalenica	powiat nowotomyski	wielkopolskie	9 591	6,4 km²
+420	Szubin	powiat nakielski	kujawsko-pomorskie	9 580	7,7 km²
+421	Wysokie Mazowieckie	powiat wysokomazowiecki	podlaskie	9 503	15 km²
+422	Kostrzyn	powiat poznański	wielkopolskie	9 492	8 km²
+423	Sucha Beskidzka	powiat suski	małopolskie	9 485	28 km²
+424	Ustrzyki Dolne	powiat bieszczadzki	podkarpackie	9 445	16,8 km²
+425	Sępólno Krajeńskie	powiat sępoleński	kujawsko-pomorskie	9 368	6,6 km²
+426	Kolbuszowa	powiat kolbuszowski	podkarpackie	9 329	7,9 km²
+427	Środa Śląska	powiat średzki	dolnośląskie	9 317	14,9 km²
+428	Lwówek Śląski	powiat lwówecki	dolnośląskie	9 271	16,7 km²
+429	Ozimek	powiat opolski	opolskie	9 218	3,3 km²
+430	Chełmek	powiat oświęcimski	małopolskie	9 168	8,3 km²
+431	Kruszwica	powiat inowrocławski	kujawsko-pomorskie	9 128	6,6 km²
+432	Ziębice	powiat ząbkowicki	dolnośląskie	9 117	15,1 km²
+433	Stary Sącz	powiat nowosądecki	małopolskie	9 107	15 km²
+434	Wojkowice	powiat będziński	śląskie	9 107	13 km²
+435	Janikowo	powiat inowrocławski	kujawsko-pomorskie	9 079	9,5 km²
+436	Kamień Pomorski	powiat kamieński	zachodniopomorskie	9 070	10,7 km²
+437	Orneta	powiat lidzbarski	warmińsko-mazurskie	9 046	9,6 km²
+438	Pobiedziska	powiat poznański	wielkopolskie	9 043	10,2 km²
+439	Oborniki Śląskie	powiat trzebnicki	dolnośląskie	9 038	14,5 km²
+440	Żuromin	powiat żuromiński	mazowieckie	9 022	11,2 km²
+441	Strzyżów	powiat strzyżowski	podkarpackie	8 967	13,9 km²
+442	Wolbrom	powiat olkuski	małopolskie	8 874	10,1 km²
+443	Grodków	powiat brzeski	opolskie	8 871	9,9 km²
+444	Opole Lubelskie	powiat opolski	lubelskie	8 860	15,1 km²
+445	Prabuty	powiat kwidzyński	pomorskie	8 802	7,3 km²
+446	Poręba	powiat zawierciański	śląskie	8 801	40 km²
+447	Wieruszów	powiat wieruszowski	łódzkie	8 723	6 km²
+448	Suchedniów	powiat skarżyski	świętokrzyskie	8 714	59,4 km²
+449	Jastrowie	powiat złotowski	wielkopolskie	8 664	72,3 km²
+450	Imielin	powiat bieruńsko-lędziński	śląskie	8 621	28 km²
+451	Kalety	powiat tarnogórski	śląskie	8 607	76 km²
+452	Żychlin	powiat kutnowski	łódzkie	8 576	8,7 km²
+453	Połczyn-Zdrój	powiat świdwiński	zachodniopomorskie	8 444	7,2 km²
+454	Połaniec	powiat staszowski	świętokrzyskie	8 347	17,4 km²
+455	Pelplin	powiat tczewski	pomorskie	8 254	4,4 km²
+456	Chocianów	powiat polkowicki	dolnośląskie	8 194	9 km²
+457	Lidzbark	powiat działdowski	warmińsko-mazurskie	8 168	5,7 km²
+458	Zwoleń	powiat zwoleński	mazowieckie	8 112	15,9 km²
+459	Witkowo	powiat gnieźnieński	wielkopolskie	8 014	8,3 km²
+460	Tłuszcz	powiat wołomiński	mazowieckie	7 989	7,9 km²
+461	Pniewy	powiat szamotulski	wielkopolskie	7 953	9,3 km²
+462	Praszka	powiat oleski	opolskie	7 944	9,4 km²
+463	Paczków	powiat nyski	opolskie	7 865	6,6 km²
+464	Mszana Dolna	powiat limanowski	małopolskie	7 863	27 km²
+465	Trzemeszno	powiat gnieźnieński	wielkopolskie	7 843	5,5 km²
+466	Zelów	powiat bełchatowski	łódzkie	7 833	10,8 km²
+467	Poddębice	powiat poddębicki	łódzkie	7 780	5,9 km²
+468	Barcin	powiat żniński	kujawsko-pomorskie	7 752	3,7 km²
+469	Olsztynek	powiat olsztyński	warmińsko-mazurskie	7 721	7,7 km²
+470	Nasielsk	powiat nowodworski	mazowieckie	7 650	12,6 km²
+471	Zawadzkie	powiat strzelecki	opolskie	7 605	16,5 km²
+472	Brzozów	powiat brzozowski	podkarpackie	7 550	11,5 km²
+473	Kórnik	powiat poznański	wielkopolskie	7 530	6 km²
+474	Sędziszów Małopolski	powiat ropczycko-sędziszowski	podkarpackie	7 492	10 km²
+475	Miasteczko Śląskie	powiat tarnogórski	śląskie	7 463	68 km²
+476	Tuszyn	powiat łódzki wschodni	łódzkie	7 319	23,3 km²
+477	Chojna	powiat gryfiński	zachodniopomorskie	7 303	12,1 km²
+478	Gniewkowo	powiat inowrocławski	kujawsko-pomorskie	7 293	9,2 km²
+479	Barczewo	powiat olsztyński	warmińsko-mazurskie	7 265	4,6 km²
+480	Zbąszyń	powiat nowotomyski	wielkopolskie	7 202	5,4 km²
+481	Czaplinek	powiat drawski	zachodniopomorskie	7 188	13,6 km²
+482	Białobrzegi	powiat białobrzeski	mazowieckie	7 132	7,5 km²
+483	Sławków	powiat będziński	śląskie	7 129	37 km²
+484	Łosice	powiat łosicki	mazowieckie	7 099	23,7 km²
+485	Skarszewy	powiat starogardzki	pomorskie	7 082	10,8 km²
+486	Łazy	powiat zawierciański	śląskie	7 047	8,6 km²
+487	Sobótka	powiat wrocławski	dolnośląskie	6 991	32,2 km²
+488	Witnica	powiat gorzowski	lubuskie	6 951	8,2 km²
+489	Gryfów Śląski	powiat lwówecki	dolnośląskie	6 902	6,6 km²
+490	Żarów	powiat świdnicki	dolnośląskie	6 880	7 km²
+491	Gniew	powiat tczewski	pomorskie	6 868	6 km²
+492	Szklarska Poręba	powiat jeleniogórski	dolnośląskie	6 864	75 km²
+493	Rudnik nad Sanem	powiat niżański	podkarpackie	6 858	36,6 km²
+494	Pajęczno	powiat pajęczański	łódzkie	6 811	20,2 km²
+495	Łochów	powiat węgrowski	mazowieckie	6 786	13,4 km²
+496	Opatów	powiat opatowski	świętokrzyskie	6 767	9,4 km²
+497	Bełżyce	powiat lubelski	lubelskie	6 765	23,5 km²
+498	Twardogóra	powiat oleśnicki	dolnośląskie	6 762	8,3 km²
+499	Kłodawa	powiat kolski	wielkopolskie	6 721	4,3 km²
+500	Tuchów	powiat tarnowski	małopolskie	6 720	18,1 km²
+501	Sędziszów	powiat jędrzejowski	świętokrzyskie	6 707	7,9 km²
+502	Koźmin Wielkopolski	powiat krotoszyński	wielkopolskie	6 698	5,9 km²
+503	Piława Górna	powiat dzierżoniowski	dolnośląskie	6 696	21 km²
+504	Rzepin	powiat słubicki	lubuskie	6 689	11,4 km²
+505	Sianów	powiat koszaliński	zachodniopomorskie	6 681	15,9 km²
+506	Polanica-Zdrój	powiat kłodzki	dolnośląskie	6 663	17 km²
+507	Głuszyca	powiat wałbrzyski	dolnośląskie	6 635	16,2 km²
+508	Niemodlin	powiat opolski	opolskie	6 623	13,1 km²
+509	Gogolin	powiat krapkowicki	opolskie	6 538	20,4 km²
+510	Żukowo	powiat kartuski	pomorskie	6 521	4,7 km²
+511	Sułkowice	powiat myślenicki	małopolskie	6 520	16,5 km²
+512	Piechowice	powiat jeleniogórski	dolnośląskie	6 494	43 km²
+513	Żmigród	powiat trzebnicki	dolnośląskie	6 485	9,5 km²
+514	Przemków	powiat polkowicki	dolnośląskie	6 484	6,2 km²
+515	Mszczonów	powiat żyrardowski	mazowieckie	6 460	8,6 km²
+516	Dobczyce	powiat myślenicki	małopolskie	6 457	13 km²
+517	Kąty Wrocławskie	powiat wrocławski	dolnośląskie	6 422	8,6 km²
+518	Sulejów	powiat piotrkowski	łódzkie	6 376	26,3 km²
+519	Lubawka	powiat kamiennogórski	dolnośląskie	6 317	22,4 km²
+520	Buk	powiat poznański	wielkopolskie	6 225	3 km²
+521	Krzyż Wielkopolski	powiat czarnkowsko-trzcianecki	wielkopolskie	6 209	5,8 km²
+522	Nowe	powiat świecki	kujawsko-pomorskie	6 190	3,6 km²
+523	Dynów	powiat rzeszowski	podkarpackie	6 186	25 km²
+524	Proszowice	powiat proszowicki	małopolskie	6 184	7,3 km²
+525	Nowa Sarzyna	powiat leżajski	podkarpackie	6 177	9,2 km²
+526	Działoszyn	powiat pajęczański	łódzkie	6 173	4,9 km²
+527	Koniecpol	powiat częstochowski	śląskie	6 165	36,9 km²
+528	Przysucha	powiat przysuski	mazowieckie	6 146	7 km²
+529	Kietrz	powiat głubczycki	opolskie	6 136	18,7 km²
+530	Głogów Małopolski	powiat rzeszowski	podkarpackie	6 117	13,7 km²
+531	Sieraków	powiat międzychodzki	wielkopolskie	6 117	14,1 km²
+532	Czarne	powiat człuchowski	pomorskie	6 089	46,4 km²
+533	Grybów	powiat nowosądecki	małopolskie	6 086	17 km²
+534	Siechnice	powiat wrocławski	dolnośląskie	6 063	15,6 km²
+535	Maków Podhalański	powiat suski	małopolskie	6 037	20,1 km²
+536	Stronie Śląskie	powiat kłodzki	dolnośląskie	6 023	2,4 km²
+537	Wieleń	powiat czarnkowsko-trzcianecki	wielkopolskie	6 021	4,3 km²
+538	Lewin Brzeski	powiat brzeski	opolskie	6 007	11,6 km²
+539	Stąporków	powiat konecki	świętokrzyskie	5 996	10,9 km²
+540	Wołczyn	powiat kluczborski	opolskie	5 986	7,5 km²
+541	Szczawnica	powiat nowotarski	małopolskie	5 983	32,9 km²
+542	Piwniczna-Zdrój	powiat nowosądecki	małopolskie	5 981	38,3 km²
+543	Karlino	powiat białogardzki	zachodniopomorskie	5 974	9,4 km²
+544	Więcbork	powiat sępoleński	kujawsko-pomorskie	5 970	4,3 km²
+545	Pieńsk	powiat zgorzelecki	dolnośląskie	5 937	9,9 km²
+546	Lądek-Zdrój	powiat kłodzki	dolnośląskie	5 917	20,3 km²
+547	Dąbrowa Białostocka	powiat sokólski	podlaskie	5 874	22,6 km²
+548	Boguchwała	powiat rzeszowski	podkarpackie	5 865	9,1 km²
+549	Stęszew	powiat poznański	wielkopolskie	5 834	5,7 km²
+550	Radziejów	powiat radziejowski	kujawsko-pomorskie	5 817	6 km²
+551	Lipsko	powiat lipski	mazowieckie	5 816	15,7 km²
+552	Terespol	powiat bialski	lubelskie	5 815	10 km²
+553	Strzelno	powiat mogileński	kujawsko-pomorskie	5 812	4,5 km²
+554	Ścinawa	powiat lubiński	dolnośląskie	5 798	13,5 km²
+555	Orzysz	powiat piski	warmińsko-mazurskie	5 797	8,2 km²
+556	Szczawno-Zdrój	powiat wałbrzyski	dolnośląskie	5 796	15 km²
+557	Choroszcz	powiat białostocki	podlaskie	5 782	16,8 km²
+558	Głogówek	powiat prudnicki	opolskie	5 770	22,1 km²
+559	Pakość	powiat inowrocławski	kujawsko-pomorskie	5 756	3,5 km²
+560	Szczyrk	powiat bielski	śląskie	5 750	39 km²
+561	Jedlicze	powiat krośnieński	podkarpackie	5 748	10,6 km²
+562	Kazimierza Wielka	powiat kazimierski	świętokrzyskie	5 748	5,3 km²
+563	Susz	powiat iławski	warmińsko-mazurskie	5 717	6,7 km²
+564	Sejny	powiat sejneński	podlaskie	5 650	4 km²
+565	Lesko	powiat leski	podkarpackie	5 629	15,3 km²
+566	Śmigiel	powiat kościański	wielkopolskie	5 603	5,3 km²
+567	Dzierzgoń	powiat sztumski	pomorskie	5 593	3,9 km²
+568	Radymno	powiat jarosławski	podkarpackie	5 501	14 km²
+569	Kuźnia Raciborska	powiat raciborski	śląskie	5 500	31,5 km²
+570	Międzyzdroje	powiat kamieński	zachodniopomorskie	5 485	4,5 km²
+571	Siewierz	powiat będziński	śląskie	5 481	38,7 km²
+572	Szczytna	powiat kłodzki	dolnośląskie	5 363	80,4 km²
+573	Bolków	powiat jaworski	dolnośląskie	5 314	7,7 km²
+574	Czempiń	powiat kościański	wielkopolskie	5 280	3,3 km²
+575	Jordanów	powiat suski	małopolskie	5 274	21 km²
+576	Szczebrzeszyn	powiat zamojski	lubelskie	5 245	29,1 km²
+577	Debrzno	powiat człuchowski	pomorskie	5 232	7,5 km²
+578	Jaworzyna Śląska	powiat świdnicki	dolnośląskie	5 226	4,3 km²
+579	Wyrzysk	powiat pilski	wielkopolskie	5 191	4,1 km²
+580	Bychawa	powiat lubelski	lubelskie	5 178	6,7 km²
+581	Nowogród Bobrzański	powiat zielonogórski	lubuskie	5 161	14,6 km²
+582	Odolanów	powiat ostrowski	wielkopolskie	5 116	4,8 km²
+583	Zagórz	powiat sanocki	podkarpackie	5 082	22,3 km²
+584	Zbąszynek	powiat świebodziński	lubuskie	5 078	2,9 km²
+585	Muszyna	powiat nowosądecki	małopolskie	5 069	24,4 km²
+586	Otmuchów	powiat nyski	opolskie	5 068	27,8 km²
+587	Iłża	powiat radomski	mazowieckie	5 054	15,8 km²
+588	Brusy	powiat chojnicki	pomorskie	5 037	5,2 km²
+589	Bierutów	powiat oleśnicki	dolnośląskie	5 032	8,4 km²
+590	Jedlina-Zdrój	powiat wałbrzyski	dolnośląskie	5 000	17 km²
+591	Wolin	powiat kamieński	zachodniopomorskie	4 999	14,5 km²
+592	Karpacz	powiat jeleniogórski	dolnośląskie	4 968	39 km²
+593	Łaskarzew	powiat garwoliński	mazowieckie	4 914	15 km²
+594	Borne Sulinowo	powiat szczecinecki	zachodniopomorskie	4 905	18,2 km²
+595	Duszniki-Zdrój	powiat kłodzki	dolnośląskie	4 899	22 km²
+596	Ciechanowiec	powiat wysokomazowiecki	podlaskie	4 840	19,5 km²
+597	Nowe Skalmierzyce	powiat ostrowski	wielkopolskie	4 830	1,6 km²
+598	Reszel	powiat kętrzyński	warmińsko-mazurskie	4 817	3,8 km²
+599	Pilzno	powiat dębicki	podkarpackie	4 792	16 km²
+600	Kcynia	powiat nakielski	kujawsko-pomorskie	4 738	6,8 km²
+601	Ożarów	powiat opatowski	świętokrzyskie	4 730	7,8 km²
+602	Brześć Kujawski	powiat włocławski	kujawsko-pomorskie	4 728	7 km²
+603	Biecz	powiat gorlicki	małopolskie	4 705	17,7 km²
+604	Ruciane-Nida	powiat piski	warmińsko-mazurskie	4 701	17,1 km²
+605	Supraśl	powiat białostocki	podlaskie	4 679	5,7 km²
+606	Raciąż	powiat płoński	mazowieckie	4 662	8 km²
+607	Leśna	powiat lubański	dolnośląskie	4 654	8,6 km²
+608	Kalwaria Zebrzydowska	powiat wadowicki	małopolskie	4 593	5,5 km²
+609	Zduny	powiat krotoszyński	wielkopolskie	4 587	6,2 km²
+610	Korsze	powiat kętrzyński	warmińsko-mazurskie	4 586	4 km²
+611	Krośniewice	powiat kutnowski	łódzkie	4 549	4,2 km²
+612	Łabiszyn	powiat żniński	kujawsko-pomorskie	4 531	2,9 km²
+613	Rejowiec Fabryczny	powiat chełmski	lubelskie	4 515	15 km²
+614	Żarki	powiat myszkowski	śląskie	4 486	25,4 km²
+615	Golina	powiat koniński	wielkopolskie	4 478	3,5 km²
+616	Olszyna	powiat lubański	dolnośląskie	4 474	20,3 km²
+617	Jasień	powiat żarski	lubuskie	4 463	4,8 km²
+618	Woźniki	powiat lubliniecki	śląskie	4 463	71 km²
+619	Krzepice	powiat kłobucki	śląskie	4 460	27,7 km²
+620	Piotrków Kujawski	powiat radziejowski	kujawsko-pomorskie	4 448	9,8 km²
+621	Bytom Odrzański	powiat nowosolski	lubuskie	4 443	2,3 km²
+622	Pilawa	powiat garwoliński	mazowieckie	4 438	6,6 km²
+623	Chęciny	powiat kielecki	świętokrzyskie	4 438	14,1 km²
+624	Słomniki	powiat krakowski	małopolskie	4 423	3,4 km²
+625	Mrocza	powiat nakielski	kujawsko-pomorskie	4 393	5 km²
+626	Ogrodzieniec	powiat zawierciański	śląskie	4 379	28,6 km²
+627	Kalisz Pomorski	powiat drawski	zachodniopomorskie	4 361	12 km²
+628	Resko	powiat łobeski	zachodniopomorskie	4 356	4,5 km²
+629	Zawidów	powiat zgorzelecki	dolnośląskie	4 353	6 km²
+630	Szamocin	powiat chodzieski	wielkopolskie	4 343	4,7 km²
+631	Świeradów-Zdrój	powiat lubański	dolnośląskie	4 342	21 km²
+632	Nowy Staw	powiat malborski	pomorskie	4 335	4,7 km²
+633	Skaryszew	powiat radomski	mazowieckie	4 308	27,5 km²
+634	Mieroszów	powiat wałbrzyski	dolnośląskie	4 274	10,3 km²
+635	Górowo Iławeckie	powiat bartoszycki	warmińsko-mazurskie	4 264	3 km²
+636	Kowalewo Pomorskie	powiat golubsko-dobrzyński	kujawsko-pomorskie	4 261	4,5 km²
+637	Kleczew	powiat koniński	wielkopolskie	4 240	6,7 km²
+638	Nowogrodziec	powiat bolesławiecki	dolnośląskie	4 230	16,1 km²
+639	Żabno	powiat tarnowski	małopolskie	4 223	11,1 km²
+640	Bobolice	powiat koszaliński	zachodniopomorskie	4 218	4,8 km²
+641	Czerwieńsk	powiat zielonogórski	lubuskie	4 200	9,4 km²
+642	Krobia	powiat gostyński	wielkopolskie	4 187	7,1 km²
+643	Szczucin	powiat dąbrowski	małopolskie	4 173	6,9 km²
+644	Skoki	powiat wągrowiecki	wielkopolskie	4 145	11,2 km²
+645	Gąbin	powiat płocki	mazowieckie	4 142	28 km²
+646	Serock	powiat legionowski	mazowieckie	4 130	13,4 km²
+647	Tarczyn	powiat piaseczyński	mazowieckie	4 127	5,2 km²
+648	Biała Piska	powiat piski	warmińsko-mazurskie	4 125	3,2 km²
+649	Płoty	powiat gryficki	zachodniopomorskie	4 092	4,1 km²
+650	Janowiec Wielkopolski	powiat żniński	kujawsko-pomorskie	4 088	3 km²
+651	Lipiany	powiat pyrzycki	zachodniopomorskie	4 085	5,5 km²
+652	Żelechów	powiat garwoliński	mazowieckie	4 081	12,1 km²
+653	Mirsk	powiat lwówecki	dolnośląskie	4 053	14,7 km²
+654	Sokołów Małopolski	powiat rzeszowski	podkarpackie	4 040	15,5 km²
+655	Babimost	powiat zielonogórski	lubuskie	4 037	3,7 km²
+656	Nałęczów	powiat puławski	lubelskie	4 033	13,8 km²
+657	Iłowa	powiat żagański	lubuskie	4 013	9,2 km²
+658	Drzewica	powiat opoczyński	łódzkie	4 008	4,8 km²
+659	Okonek	powiat złotowski	wielkopolskie	3 981	6 km²
+660	Małogoszcz	powiat jędrzejowski	świętokrzyskie	3 929	9,7 km²
+661	Chmielnik	powiat kielecki	świętokrzyskie	3 921	7,8 km²
+662	Nowe Miasto nad Pilicą	powiat grójecki	mazowieckie	3 920	11,3 km²
+663	Sława	powiat wschowski	lubuskie	3 913	14,3 km²
+664	Ośno Lubuskie	powiat słubicki	lubuskie	3 889	8 km²
+665	Mikołajki	powiat mrągowski	warmińsko-mazurskie	3 883	8,9 km²
+666	Jastarnia	powiat pucki	pomorskie	3 874	8 km²
+667	Podkowa Leśna	powiat grodziski	mazowieckie	3 869	10 km²
+668	Brańsk	powiat bielski	podlaskie	3 867	32 km²
+669	Wojcieszów	powiat złotoryjski	dolnośląskie	3 864	32 km²
+670	Barwice	powiat szczecinecki	zachodniopomorskie	3 851	7,5 km²
+671	Ujście	powiat pilski	wielkopolskie	3 828	5,8 km²
+672	Jabłonowo Pomorskie	powiat brodnicki	kujawsko-pomorskie	3 824	3,4 km²
+673	Łeba	powiat lęborski	pomorskie	3 824	15 km²
+674	Krajenka	powiat złotowski	wielkopolskie	3 811	3,8 km²
+675	Dobrodzień	powiat oleski	opolskie	3 810	19,5 km²
+676	Kępice	powiat słupski	pomorskie	3 802	6,1 km²
+677	Skała	powiat krakowski	małopolskie	3 762	3 km²
+678	Pruchnik	powiat jarosławski	podkarpackie	3 751	19,9 km²
+679	Szczekociny	powiat zawierciański	śląskie	3 745	18 km²
+680	Kargowa	powiat zielonogórski	lubuskie	3 743	4,6 km²
+681	Byczyna	powiat kluczborski	opolskie	3 714	5,8 km²
+682	Rymanów	powiat krośnieński	podkarpackie	3 696	12,4 km²
+683	Przedbórz	powiat radomszczański	łódzkie	3 687	6,1 km²
+684	Zator	powiat oświęcimski	małopolskie	3 683	11,5 km²
+685	Sompolno	powiat koniński	wielkopolskie	3 677	6,2 km²
+686	Skępe	powiat lipnowski	kujawsko-pomorskie	3 669	7,5 km²
+687	Hel	powiat pucki	pomorskie	3 668	22 km²
+688	Toszek	powiat gliwicki	śląskie	3 664	9,7 km²
+689	Halinów	powiat miński	mazowieckie	3 654	2,8 km²
+690	Prochowice	powiat legnicki	dolnośląskie	3 649	9,9 km²
+691	Strumień	powiat cieszyński	śląskie	3 642	6,3 km²
+692	Tyczyn	powiat rzeszowski	podkarpackie	3 641	9,7 km²
+693	Miłosław	powiat wrzesiński	wielkopolskie	3 626	4,1 km²
+694	Nekla	powiat wrzesiński	wielkopolskie	3 621	19,8 km²
+695	Mieszkowice	powiat gryfiński	zachodniopomorskie	3 603	4,7 km²
+696	Skórcz	powiat starogardzki	pomorskie	3 599	4 km²
+697	Małomice	powiat żagański	lubuskie	3 573	5,4 km²
+698	Kowal	powiat włocławski	kujawsko-pomorskie	3 538	5 km²
+699	Stryków	powiat zgierski	łódzkie	3 537	8,2 km²
+700	Rakoniewice	powiat grodziski	wielkopolskie	3 523	3,4 km²
+701	Szczuczyn	powiat grajewski	podlaskie	3 489	13,2 km²
+702	Tarnogród	powiat biłgorajski	lubelskie	3 464	10,7 km²
+703	Rzgów	powiat łódzki wschodni	łódzkie	3 431	16,8 km²
+704	Alwernia	powiat chrzanowski	małopolskie	3 425	8,9 km²
+705	Gołańcz	powiat wągrowiecki	wielkopolskie	3 413	12,6 km²
+706	Kock	powiat lubartowski	lubelskie	3 412	16,8 km²
+707	Wojnicz	powiat tarnowski	małopolskie	3 406	8,5 km²
+708	Tuliszków	powiat turecki	wielkopolskie	3 405	7 km²
+709	Łasin	powiat grudziądzki	kujawsko-pomorskie	3 377	4,8 km²
+710	Złoczew	powiat sieradzki	łódzkie	3 377	13,8 km²
+711	Kolonowskie	powiat strzelecki	opolskie	3 361	55,7 km²
+712	Zwierzyniec	powiat zamojski	lubelskie	3 347	6,2 km²
+713	Jeziorany	powiat olsztyński	warmińsko-mazurskie	3 346	3,4 km²
+714	Warta	powiat sieradzki	łódzkie	3 337	10,9 km²
+715	Maszewo	powiat goleniowski	zachodniopomorskie	3 337	5,5 km²
+716	Gozdnica	powiat żagański	lubuskie	3 272	24 km²
+717	Miejska Górka	powiat rawicki	wielkopolskie	3 246	3,1 km²
+718	Biała Rawska	powiat rawski	łódzkie	3 244	9,5 km²
+719	Zakroczym	powiat nowodworski	mazowieckie	3 241	20 km²
+720	Kańczuga	powiat przeworski	podkarpackie	3 236	7,6 km²
+721	Kobylin	powiat krotoszyński	wielkopolskie	3 236	4,9 km²
+722	Pyzdry	powiat wrzesiński	wielkopolskie	3 234	12,2 km²
+723	Chociwel	powiat stargardzki	zachodniopomorskie	3 206	3,7 km²
+724	Michałowo	powiat białostocki	podlaskie	3 177	2,2 km²
+725	Myszyniec	powiat ostrołęcki	mazowieckie	3 170	10,7 km²
+726	Dobiegniew	powiat strzelecko-drezdenecki	lubuskie	3 169	5,7 km²
+727	Lubraniec	powiat włocławski	kujawsko-pomorskie	3 160	2 km²
+728	Ćmielów	powiat ostrowiecki	świętokrzyskie	3 157	13,3 km²
+729	Ślesin	powiat koniński	wielkopolskie	3 154	7,2 km²
+730	Glinojeck	powiat ciechanowski	mazowieckie	3 150	7,4 km²
+731	Niemcza	powiat dzierżoniowski	dolnośląskie	3 121	19,8 km²
+732	Krasnobród	powiat zamojski	lubelskie	3 117	7 km²
+733	Kunów	powiat ostrowiecki	świętokrzyskie	3 098	7,3 km²
+734	Radomyśl Wielki	powiat mielecki	podkarpackie	3 080	8,8 km²
+735	Uniejów	powiat poddębicki	łódzkie	3 079	12,2 km²
+736	Zagórów	powiat słupecki	wielkopolskie	3 065	3,4 km²
+737	Lwówek	powiat nowotomyski	wielkopolskie	3 058	3,2 km²
+738	Oleszyce	powiat lubaczowski	podkarpackie	3 053	5,1 km²
+739	Łobżenica	powiat pilski	wielkopolskie	3 038	3,3 km²
+740	Mirosławiec	powiat wałecki	zachodniopomorskie	3 037	2,1 km²
+741	Margonin	powiat chodzieski	wielkopolskie	3 034	5,2 km²
+742	Węgliniec	powiat zgorzelecki	dolnośląskie	3 030	8,7 km²
+743	Polanów	powiat koszaliński	zachodniopomorskie	3 028	7,4 km²
+744	Wilamowice	powiat bielski	śląskie	3 015	10,4 km²
+745	Bobowa	powiat gorlicki	małopolskie	3 005	7,2 km²
+746	Baborów	powiat głubczycki	opolskie	3 005	11,9 km²
+747	Drobin	powiat płocki	mazowieckie	2 992	9,7 km²
+748	Recz	powiat choszczeński	zachodniopomorskie	2 977	12,4 km²
+749	Bojanowo	powiat rawicki	wielkopolskie	2 970	2,3 km²
+750	Pieniężno	powiat braniewski	warmińsko-mazurskie	2 949	3,8 km²
+751	Chorzele	powiat przasnyski	mazowieckie	2 939	17,5 km²
+752	Złoty Stok	powiat ząbkowicki	dolnośląskie	2 935	7,7 km²
+753	Kałuszyn	powiat miński	mazowieckie	2 934	12,3 km²
+754	Ryn	powiat giżycki	warmińsko-mazurskie	2 925	4,1 km²
+755	Daleszyce	powiat kielecki	świętokrzyskie	2 911	15,5 km²
+756	Poniec	powiat gostyński	wielkopolskie	2 910	3,5 km²
+757	Węgorzyno	powiat łobeski	zachodniopomorskie	2 909	6,9 km²
+758	Sulmierzyce	powiat krotoszyński	wielkopolskie	2 905	29 km²
+759	Kamieńsk	powiat radomszczański	łódzkie	2 890	12 km²
+760	Nowe Miasteczko	powiat nowosolski	lubuskie	2 884	3,3 km²
+761	Ryglice	powiat tarnowski	małopolskie	2 880	25,2 km²
+762	Wąchock	powiat starachowicki	świętokrzyskie	2 865	16 km²
+763	Knyszyn	powiat moniecki	podlaskie	2 850	23,7 km²
+764	Cybinka	powiat słubicki	lubuskie	2 809	5,3 km²
+765	Wąsosz	powiat górowski	dolnośląskie	2 807	3,2 km²
+766	Tolkmicko	powiat elbląski	warmińsko-mazurskie	2 807	2,3 km²
+767	Książ Wielkopolski	powiat śremski	wielkopolskie	2 780	2 km²
+768	Radłów	powiat tarnowski	małopolskie	2 773	16,8 km²
+769	Golczewo	powiat kamieński	zachodniopomorskie	2 763	7,4 km²
+770	Izbica Kujawska	powiat włocławski	kujawsko-pomorskie	2 762	2,2 km²
+771	Rydzyna	powiat leszczyński	wielkopolskie	2 762	2,2 km²
+772	Wysoka	powiat pilski	wielkopolskie	2 758	4,8 km²
+773	Nowy Wiśnicz	powiat bocheński	małopolskie	2 757	5 km²
+774	Bardo	powiat ząbkowicki	dolnośląskie	2 741	4,7 km²
+775	Dziwnów	powiat kamieński	zachodniopomorskie	2 736	5 km²
+776	Różan	powiat makowski	mazowieckie	2 730	6,7 km²
+777	Międzylesie	powiat kłodzki	dolnośląskie	2 723	14,4 km²
+778	Brzostek	powiat dębicki	podkarpackie	2 718	8,8 km²
+779	Leśnica	powiat strzelecki	opolskie	2 717	14,5 km²
+780	Wyszogród	powiat płocki	mazowieckie	2 709	13 km²
+781	Stoczek Łukowski	powiat łukowski	lubelskie	2 700	9 km²
+782	Prószków	powiat opolski	opolskie	2 680	16,2 km²
+783	Piaski	powiat świdnicki	lubelskie	2 672	8,4 km²
+784	Kłecko	powiat gnieźnieński	wielkopolskie	2 669	9,6 km²
+785	Annopol	powiat kraśnicki	lubelskie	2 664	7,7 km²
+786	Miłakowo	powiat ostródzki	warmińsko-mazurskie	2 653	8,8 km²
+787	Pełczyce	powiat choszczeński	zachodniopomorskie	2 653	13,1 km²
+788	Czerniejewo	powiat gnieźnieński	wielkopolskie	2 642	10,2 km²
+789	Czyżew	powiat wysokomazowiecki	podlaskie	2 636	5,2 km²
+790	Kazimierz Dolny	powiat puławski	lubelskie	2 607	30,4 km²
+791	Łęknica	powiat żarski	lubuskie	2 602	16 km²
+792	Torzym	powiat sulęciński	lubuskie	2 597	9,1 km²
+793	Koprzywnica	powiat sandomierski	świętokrzyskie	2 575	17,9 km²
+794	Pasym	powiat szczycieński	warmińsko-mazurskie	2 536	15,2 km²
+795	Borek Wielkopolski	powiat gostyński	wielkopolskie	2 533	6,3 km²
+796	Tychowo	powiat białogardzki	zachodniopomorskie	2 533	4 km²
+797	Gorzów Śląski	powiat oleski	opolskie	2 532	18,5 km²
+798	Józefów	powiat biłgorajski	lubelskie	2 520	23,9 km²
+799	Biała	powiat prudnicki	opolskie	2 511	14,7 km²
+800	Krynki	powiat sokólski	podlaskie	2 511	3,8 km²
+801	Trzciel	powiat międzyrzecki	lubuskie	2 496	3 km²
+802	Zabłudów	powiat białostocki	podlaskie	2 495	14,3 km²
+803	Bisztynek	powiat bartoszycki	warmińsko-mazurskie	2 492	2,2 km²
+804	Radków	powiat kłodzki	dolnośląskie	2 485	15 km²
+805	Ciężkowice	powiat tarnowski	małopolskie	2 483	10 km²
+806	Frombork	powiat braniewski	warmińsko-mazurskie	2 475	7,6 km²
+807	Gościno	powiat kołobrzeski	zachodniopomorskie	2 468	5,7 km²
+808	Trzcińsko-Zdrój	powiat gryfiński	zachodniopomorskie	2 460	2,3 km²
+809	Lipsk	powiat augustowski	podlaskie	2 443	5 km²
+810	Koziegłowy	powiat myszkowski	śląskie	2 438	26,7 km²
+811	Miłomłyn	powiat ostródzki	warmińsko-mazurskie	2 431	12,4 km²
+812	Świątniki Górne	powiat krakowski	małopolskie	2 394	4,4 km²
+813	Wolbórz	powiat piotrkowski	łódzkie	2 388	15,2 km²
+814	Dobrzany	powiat stargardzki	zachodniopomorskie	2 387	5,3 km²
+815	Mogielnica	powiat grójecki	mazowieckie	2 386	13 km²
+816	Obrzycko	powiat szamotulski	wielkopolskie	2 384	4 km²
+817	Międzybórz	powiat oleśnicki	dolnośląskie	2 381	6,4 km²
+818	Stawiski	powiat kolneński	podlaskie	2 379	13,2 km²
+819	Świerzawa	powiat złotoryjski	dolnośląskie	2 376	1,8 km²
+820	Rychwał	powiat koniński	wielkopolskie	2 369	9,7 km²
+821	Kamień Krajeński	powiat sępoleński	kujawsko-pomorskie	2 358	3,7 km²
+822	Dobra	powiat łobeski	zachodniopomorskie	2 347	1,8 km²
+823	Czchów	powiat brzeski	małopolskie	2 346	14,1 km²
+824	Człopa	powiat wałecki	zachodniopomorskie	2 342	6,3 km²
+825	Drawno	powiat choszczeński	zachodniopomorskie	2 335	5 km²
+826	Wiązów	powiat strzeliński	dolnośląskie	2 327	9,2 km²
+827	Szepietowo	powiat wysokomazowiecki	podlaskie	2 282	2 km²
+828	Dobrzyń nad Wisłą	powiat lipnowski	kujawsko-pomorskie	2 278	5,4 km²
+829	Prusice	powiat trzebnicki	dolnośląskie	2 274	10,9 km²
+830	Suchowola	powiat sokólski	podlaskie	2 274	26 km²
+831	Bodzentyn	powiat kielecki	świętokrzyskie	2 274	8,7 km²
+832	Błaszki	powiat sieradzki	łódzkie	2 273	1,6 km²
+833	Osieczna	powiat leszczyński	wielkopolskie	2 245	4,8 km²
+834	Biały Bór	powiat szczecinecki	zachodniopomorskie	2 229	12,8 km²
+835	Zalewo	powiat iławski	warmińsko-mazurskie	2 211	8,2 km²
+836	Ostrów Lubelski	powiat lubartowski	lubelskie	2 207	29,8 km²
+837	Nowogród	powiat łomżyński	podlaskie	2 197	20,6 km²
+838	Krzanowice	powiat raciborski	śląskie	2 195	3,1 km²
+839	Łaszczów	powiat tomaszowski	lubelskie	2 187	5 km²
+840	Kosów Lacki	powiat sokołowski	mazowieckie	2 187	11,6 km²
+841	Sieniawa	powiat przeworski	podkarpackie	2 179	6,7 km²
+842	Błażowa	powiat rzeszowski	podkarpackie	2 178	4,2 km²
+843	Tyszowce	powiat tomaszowski	lubelskie	2 171	18,5 km²
+844	Dukla	powiat krośnieński	podkarpackie	2 160	5,5 km²
+845	Kisielice	powiat iławski	warmińsko-mazurskie	2 155	3,4 km²
+846	Żerków	powiat jarociński	wielkopolskie	2 145	2,2 km²
+847	Drohiczyn	powiat siemiatycki	podlaskie	2 125	15,7 km²
+848	Narol	powiat lubaczowski	podkarpackie	2 110	12,4 km²
+849	Dąbie	powiat kolski	wielkopolskie	2 089	8,8 km²
+850	Raszków	powiat ostrowski	wielkopolskie	2 076	2,1 km²
+851	Sępopol	powiat bartoszycki	warmińsko-mazurskie	2 051	4,6 km²
+852	Pogorzela	powiat gostyński	wielkopolskie	2 046	4,4 km²
+853	Lubniewice	powiat sulęciński	lubuskie	2 040	12,1 km²
+854	Ińsko	powiat stargardzki	zachodniopomorskie	2 035	7,5 km²
+855	Szadek	powiat zduńskowolski	łódzkie	2 019	17,9 km²
+856	Tykocin	powiat białostocki	podlaskie	2 014	29 km²
+857	Osiek	powiat staszowski	świętokrzyskie	2 004	17,4 km²
+858	Ostroróg	powiat szamotulski	wielkopolskie	1 988	1,3 km²
+859	Brok	powiat ostrowski	mazowieckie	1 977	28,1 km²
+860	Grabów nad Prosną	powiat ostrzeszowski	wielkopolskie	1 976	2,6 km²
+861	Nieszawa	powiat aleksandrowski	kujawsko-pomorskie	1 975	10 km²
+862	Cieszanów	powiat lubaczowski	podkarpackie	1 975	15,1 km²
+863	Tuczno	powiat wałecki	zachodniopomorskie	1 974	9,2 km²
+864	Lubomierz	powiat lwówecki	dolnośląskie	1 968	8,1 km²
+865	Pilica	powiat zawierciański	śląskie	1 948	8,2 km²
+866	Jutrosin	powiat rawicki	wielkopolskie	1 946	1,6 km²
+867	Bieżuń	powiat żuromiński	mazowieckie	1 911	12,1 km²
+868	Mikstat	powiat ostrzeszowski	wielkopolskie	1 904	2,5 km²
+869	Goniądz	powiat moniecki	podlaskie	1 900	4,3 km²
+870	Radzyń Chełmiński	powiat grudziądzki	kujawsko-pomorskie	1 894	1,8 km²
+871	Chodecz	powiat włocławski	kujawsko-pomorskie	1 893	1,4 km²
+872	Korfantów	powiat nyski	opolskie	1 893	10,2 km²
+873	Zawichost	powiat sandomierski	świętokrzyskie	1 861	20,3 km²
+874	Sośnicowice	powiat gliwicki	śląskie	1 853	11,7 km²
+875	Iwonicz-Zdrój	powiat krośnieński	podkarpackie	1 852	5,9 km²
+876	Młynary	powiat elbląski	warmińsko-mazurskie	1 831	2,8 km²
+877	Mordy	powiat siedlecki	mazowieckie	1 819	4,5 km²
+878	Wleń	powiat lwówecki	dolnośląskie	1 818	7,2 km²
+879	Wielichowo	powiat grodziski	wielkopolskie	1 766	1,2 km²
+880	Przedecz	powiat kolski	wielkopolskie	1 759	3 km²
+881	Ujazd	powiat strzelecki	opolskie	1 740	14,8 km²
+882	Jedwabne	powiat łomżyński	podlaskie	1 717	4,5 km²
+883	Przecław	powiat mielecki	podkarpackie	1 711	16 km²
+884	Nowe Brzesko	powiat proszowicki	małopolskie	1 672	7,3 km²
+885	Zakliczyn	powiat tarnowski	małopolskie	1 665	4 km²
+886	Cedynia	powiat gryfiński	zachodniopomorskie	1 651	1,7 km²
+887	Krzywiń	powiat kościański	wielkopolskie	1 637	2,3 km²
+888	Rajgród	powiat grajewski	podlaskie	1 626	35,3 km²
+889	Moryń	powiat gryfiński	zachodniopomorskie	1 600	5,5 km²
+890	Stawiszyn	powiat kaliski	wielkopolskie	1 561	-
+891	Dolsk	powiat śremski	wielkopolskie	1 560	6,2 km²
+892	Baranów Sandomierski	powiat tarnobrzeski	podkarpackie	1 497	9,2 km²
+893	Frampol	powiat biłgorajski	lubelskie	1 482	4,7 km²
+894	Ulanów	powiat niżański	podkarpackie	1 472	8,2 km²
+895	Suchań	powiat stargardzki	zachodniopomorskie	1 466	3,6 km²
+896	Dobra	powiat turecki	wielkopolskie	1 454	1,8 km²
+897	Kołaczyce	powiat jasielski	podkarpackie	1 447	7,2 km²
+898	Górzno	powiat brodnicki	kujawsko-pomorskie	1 410	3,4 km²
+899	Lubień Kujawski	powiat włocławski	kujawsko-pomorskie	1 401	2,3 km²
+900	Krynica Morska	powiat nowodworski	pomorskie	1 351	116 km²
+901	Kleszczele	powiat hajnowski	podlaskie	1 345	46,7 km²
+902	Szlichtyngowa	powiat wschowski	lubuskie	1 328	1,6 km²
+903	Skalbmierz	powiat kazimierski	świętokrzyskie	1 315	7,1 km²
+904	Nowe Warpno	powiat policki	zachodniopomorskie	1 231	24,5 km²
+905	Suraż	powiat białostocki	podlaskie	1 008	33,9 km²
+906	Działoszyce	powiat pińczowski	świętokrzyskie	981	1,9 km²
+907	Wyśmierzyce	powiat białobrzeski	mazowieckie	906	16,8 km²
+908	Siedliszcze	powiat chełmski	lubelskie	-	13,2 km²
+909	Modliborzyce	powiat janowski	lubelskie	-	-
+910	Urzędów	powiat kraśnicki	lubelskie	-	12,9 km²
+911	Lubycza Królewska	powiat tomaszowski	lubelskie	-	3,9 km²
+912	Mrozy	powiat miński	mazowieckie	-	-
+913	Zaklików	powiat stalowowolski	podkarpackie	-	-
+914	Czarna Woda	powiat starogardzki	pomorskie	-	27,7 km²
+915	Stopnica	powiat buski	świętokrzyskie	-	-
+916	Jaraczewo	powiat jarociński	wielkopolskie	-	10,1 km²
+917	Chocz	powiat pleszewski	wielkopolskie	-	-
+918	Dobrzyca	powiat pleszewski	wielkopolskie	-	19,7 km²
+919	Stepnica	powiat goleniowski	zachodniopomorskie	-	11,4 km²

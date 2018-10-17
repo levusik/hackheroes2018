@@ -1,8 +1,14 @@
 var position = null;
+var sock = null;
 
-function getLocation(pos) {
-    position = pos;
-    console.log(position);
+// register map
+mapboxgl.accessToken = 'pk.eyJ1IjoiYWNoZSIsImEiOiJjam5kYXhibW8xODRxM3JwOHhhamxodG92In0.BSenCD_4t1MyCOZw-fP7Ow';
+
+
+function getLocation(_position) {
+    position = _position;
+    console.log(_position);
+    sock.emit('handshake', {"pos": _position['']});
 }
 function respondToErrors(error)
 {
@@ -41,19 +47,24 @@ Vue.component('maps', {
         console.log("created maps");
     },
     mounted: function () {
-        this.map = new google.maps.Map(this.$refs['map_ref'], {
+        /*this.map = new google.maps.Map(this.$refs['map_ref'], {
             center: {
                 lat: -34.397,
                 lng: 150.644
             },
             zoom: 8
+        });*/
+        this.map = new mapboxgl.Map({
+            container:'map', 
+            style: 'mapbox://styles/mapbox/streets-v10'
         });
-    
+        console.log(this.map);
+        console.log(this.$refs['map_ref']);
+        
+
         /*this.informAboutLocalisation('green', "Lokalizacja", "Czy twoja lokalizacja to x,y ( z ) ?", 
         () => {console.log('accepted');},
         () => {console.log('denied');});*/
-    
-        console.log(this.$refs['map_ref']);
         console.log("mounted maps");
         this.panel_name = header;
     }
@@ -183,15 +194,15 @@ new Vue({
     },
     created: function () {
         this.socket = io.connect('http://' + document.domain + ':' + location.port);
-        this.socket.emit('test');
-
         // get geolocation
         if (navigator.geolocation) {
-            console.log('xd');
-            navigator.geolocation.getCurrentPosition(getLocation, respondToErrors, 
-                                                    {timeout: 0, enableHighAccuracy: true });
-        } else {
 
+            navigator.geolocation.getCurrentPosition(getLocation, respondToErrors, 
+                                                    {enableHighAccuracy: true });
+            this.socket.emit('handshake');
+            sock = this.socket;
+        } else {
         }
+
     }
 });

@@ -20,6 +20,7 @@
 <link href="{{ url_for('static', filename='css/templates.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ url_for('static', filename='css/global/global.css') }}" rel="stylesheet" type="text/css" />
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
 
 <!-- Favicon -->
 <link href="{{ url_for('static', filename='img/favicon.ico') }}" />
@@ -32,8 +33,7 @@
 <script type="text/javascript" src="{{ url_for('static', filename='vendor/vue.js/vue.js') }}"></script>
 <script type="text/javascript" src="{{ url_for('static', filename='vendor/socket.io/socket.io.js') }}"></script>
 <script src="https://cdn.jsdelivr.net/npm/vuesax/dist/vuesax.umd.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBej2b3JFvAE3x5pCZgobA7NHE6cJaQqpk&callback=initMap"
-    async defer></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
 <script type="text/javascript" src="{{ url_for('static', filename='vendor/jquery.min.js') }}"></script>
 <script type="text/javascript" src="{{ url_for('static', filename='vendor/jquery.migrate.min.js') }}"></script>
 <script type="text/javascript" src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js') }}"></script>
@@ -93,51 +93,41 @@
           <div class="modal-mask">
             <div class="modal-wrapper">
               <div class="modal-container-maps">
-                   <div id='wrapper'>
-                       <div class='background'>
-                    <div id="map" ref="map_ref"></div>
-                       </div>
-                    <div class='content'>
-                   <vs-button class="toggleBtn" @click="active=!active" color="primary" vs-type="filled"></vs-button>
+                        <vs-button  @click="active=!active" vs-type="filled" class="openPanel" vs-icon="arrow_forward_ios" vs-size='large'></vs-button>
+                        <button class="modal-default-button closeButton" @click="$emit('close')"> Powrót </button>                                                    
+                        <div id="map" ref="map_ref"></div>
                    <vs-sidebar parent="body" default-index="1"  color="primary" class="sidebarx" spacer v-model="active">
                             <div class="header-sidebar" slot="header">
-                              <h4>
-                                Panel Sterowania
-                              </h4>
+                              <h4> Panel Sterowania </h4>
                             </div>
                             <vs-collapse type="shadow">
                                     <vs-collapse-item>
-                                        <div slot="header">
-                                          <vs-checkbox v-model="food_query">szukaj restauracji w pobliżu</vs-checkbox>
-                                        </div>
-                                        
+                                        <div slot="header"> Jedzenie </div>
+                                        <vs-checkbox v-model="food_query">szukaj restauracji w pobliżu</vs-checkbox>
                                     </vs-collapse-item>
                                     <vs-collapse-item>
-                                            <div slot="header">
-                                              Kino
-                                            </div>
+                                            <div slot="header"> Kino </div>
                                             tutaj jest cos 2
                                     </vs-collapse-item>
                                     <vs-collapse-item>
-                                                <div slot="header">
-                                                  Turystyka
-                                                </div>
+                                                <div slot="header"> Turystyka </div>
                                                 tutaj jest cos 3
                                     </vs-collapse-item>
                                     <vs-collapse-item>
-                                            <div slot="header">
-                                              Zwiedzaj z UE 
-                                            </div>
+                                            <div slot="header"> Zwiedzaj z UE </div>
                                             tutaj jest cos 4
-                                </vs-collapse-item>
+                                    </vs-collapse-item>
+                                    <vs-collapse-item>
+                                        <div slot="header"> Urzędy </div>
+                                        tutaj jest cos 4
+                                    </vs-collapse-item>
+                                    <vs-collapse-item>
+                                    <div slot="header"> Wyświetlanie </div>
+                                        tutaj jest cos 4
+                                    </vs-collapse-item>
                             </vs-collapse>
                             <vs-button style="left: 33%;" color="success" vs-type="relief" vs-icon="search" vs-size='large'></vs-button>
                      </vs-sidebar>
-
-                     <button class="modal-default-button" @click="$emit('close')">
-                            Powrót
-                          </button>
-                        </div>
                 </div>
             </div>
               </div>

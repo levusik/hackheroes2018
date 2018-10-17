@@ -129,32 +129,31 @@ button {
     width: 100%;
 }
 
-.toggleBtn
+.mapboxgl-map
 {
-    top: 50%;
+  width: 100%;
+  height: 100%;
 }
 
-#wrapper{
-    position: relative;
-    width: 200px;
-    height: 200px;
+.openPanel
+{
+  position: absolute;
+  z-index: 2;
+  left: -1%;
+  width: 3%;
+  top: 50%;
+
 }
 
-.content{
-    color: #FFFFFF;
-    font-size: 26px;
-    font-weight: bold;
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
-    position: relative;
-    z-index: 100;
-}
-
-.background{
-    color: #999999;
+.closeButton
+{
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.2;
+    right: 2%;
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -100;
-    height: 100%;
-    width:  100%;
+    z-index: 2;
+    font-size: 20px; 
+    margin-top: 0;
+    margin-bottom: .5rem; 
 }
