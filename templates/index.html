@@ -99,33 +99,45 @@
                         <div id="map" ref="map_ref"></div>
                    <vs-sidebar parent="body" default-index="1"  color="primary" class="sidebarx" spacer v-model="active">
                             <div class="header-sidebar" slot="header">
-                              <h4> Panel Sterowania </h4>
+                              <h4> [% panel_name %] </h4>
                             </div>
                             <vs-collapse type="shadow">
                                     <vs-collapse-item>
                                         <div slot="header"> Jedzenie </div>
-                                        <vs-checkbox v-model="food_query">szukaj restauracji w pobliżu</vs-checkbox>
+                                        <vs-checkbox>Pokaż mi restauracje w pobliżu</vs-checkbox>
                                     </vs-collapse-item>
                                     <vs-collapse-item>
                                             <div slot="header"> Kino </div>
-                                            tutaj jest cos 2
+                                            <vs-checkbox>pobierz rekomendację filmów</vs-checkbox>
+                                            <vs-checkbox>Zaznacz kina w pobliżu</vs-checkbox>
                                     </vs-collapse-item>
                                     <vs-collapse-item>
-                                                <div slot="header"> Turystyka </div>
-                                                tutaj jest cos 3
+                                                <div slot="header"> Kultura </div>
+                                                <vs-checkbox>Zaznacz Zabytki w pobliżu</vs-checkbox>
+                                                <vs-checkbox>Zaznacz Muzea w pobliżu</vs-checkbox>
+                                                <vs-checkbox>Zaznacz galerie sztuki w pobliżu</vs-checkbox>
+                                                <vs-button></vs-button>
                                     </vs-collapse-item>
                                     <vs-collapse-item>
                                             <div slot="header"> Zwiedzaj z UE </div>
-                                            tutaj jest cos 4
+                                            <vs-checkbox>pokaż mi zabytki dofinansowane z UE</vs-checkbox>
                                     </vs-collapse-item>
                                     <vs-collapse-item>
                                         <div slot="header"> Urzędy </div>
-                                        tutaj jest cos 4
+                                         dodatkowy ficzer, może będzie
                                     </vs-collapse-item>
                                     <vs-collapse-item>
                                     <div slot="header"> Wyświetlanie </div>
-                                        tutaj jest cos 4
-                                    </vs-collapse-item>
+                                    <div class="searchContent">
+                                    <ul class='leftx'>
+                                    <li> <vs-radio  v-model="street_view" vs-value="streets"> Streets </vs-radio> </li>
+                                    <li> <vs-radio  v-model="street_view" vs-value="satellite"> Satelita </vs-radio> </li>
+                                    <li> <vs-radio  v-model="street_view" vs-value="building3d"> Budynki 3D </vs-radio> </li>
+                                    </ul>
+                                    <vs-divider></vs-divider>
+
+                                    </div>
+                                </vs-collapse-item>
                             </vs-collapse>
                             <vs-button style="left: 33%;" color="success" vs-type="relief" vs-icon="search" vs-size='large'></vs-button>
                      </vs-sidebar>
@@ -145,11 +157,21 @@
                 <div class="s-header__navbar-row">
                     <div class="s-header__navbar-row-col">
                         <!-- Logo -->
+<<<<<<< HEAD
+                        <div class="s-header__logo">
+                            <h1>
+                                <a1 href="" class="typewrite" data-period="2000" data-type='[ "Hack Heroes 2018", "PoznajSwojeMiasto.pl" ]'>
+                                  <span class="wrap"></span>
+                                </a1>
+                              </h1>
+                        </div>
+=======
                         <h1>
                           <a1 href="" class="typewrite" data-period="2000" data-type='[ "Hack Heroes 2018", "PoznajSwojeMiasto.pl" ]'>
                             <span class="wrap"></span>
                           </a1>
                         </h1>
+>>>>>>> edcfe50e5a53039016271f6eec8612a1a7f4499e
                         <!-- End Logo -->
                     </div>
                     <div class="s-header__navbar-row-col">
@@ -158,8 +180,6 @@
             </div>
         </div>
         <!-- End Navbar -->
-
-
     </header>
     <!--========== END HEADER ==========-->
 
@@ -171,11 +191,9 @@
             <div class="g-fullheight--xs g-bg-position--center swiper-slide" v-for="slider in sliders" v-bind:style="{ 'background-image': 'url(' + slider.url + ')' }">
                 <div class="container g-text-center--xs g-ver-center--xs">
                     <div class="g-margin-b-30--xs">
-                        <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">[%
-                            slider.title %]<br>[% slider.message %] </h1>
+                        <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white swiperTxt">[% slider.title %]<br>[% slider.message %] </h1>
                     </div>
-                    <i v-on:click="{openMapWithFilter( slider.openMap  );}" class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-search"></i>
-                    <!-- v-bind:id="slider.id" -->
+                    <vs-button v-on:click="{openMapWithFilter( slider.openMap  );}" style="border-radius: 50%; left:50%;" color='danger' vs-type='gradient' vs-icon='search' vs-size='large'></vs-button>
                 </div>
             </div>
         </div>
@@ -187,13 +205,24 @@
         <!-- End Arrows -->
     </div>
     <!--========== END SWIPER SLIDER ==========-->
+    <vs-button @click="activeGeoPrompt=true" color="primary" vs-type="border">Run prompt</vs-button>
+    
+    <vs-prompt
+    @vs-cancel="val=''"
+    @vs-accept="localisationSetted('Cos')"
+    :vs-active.sync="activeGeoPrompt">
+     <div class="con-exemple-prompt">
+        czy to twoja lokacja ?
+       <vs-input placeholder="Code" vs-placeholder="Code" v-model="location"/>
+     </div>
+   </vs-prompt>
+
     <maps v-if="showMaps" @close="showMaps = false"></maps>
     <div class="aboutContent">
         <!-- About -->
         <div class="container g-padding-y-80--xs g-padding-y-125--sm">
             <div class="g-text-center--xs g-margin-b-80--xs">
-                <!-- <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Propaganda</p> -->
-                <h2 class="g-font-size-32--xs g-font-size-36--md">[$ big_title $]</h2>
+                <h2 class="g-font-size-32--xs g-font-size-36--md">[% big_title %]</h2>
             </div>
             <div class="row">
                 <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md" v-for="art in articles">
@@ -283,7 +312,7 @@
                             <span class="g-font-size-40--xs g-color--white">[% fig.suffix %]</span>
                         </div>
                         <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
-                        <h4 class="g-font-size-18--xs g-color--white">[% fig.text %]</h4>
+                        <h4 class="g-font-size-28--xs g-color--white">[% fig.text %]</h4>
                     </div>
                 </div>
             </div>
@@ -315,13 +344,15 @@
                         </ul>
                     </div>
                     <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
-                        <h3 class="g-font-size-18--xs g-color--white">Syriusz</h3>
+                        <h3 class="g-font-size-18--xs g-color--white">PoznajSwojeMiasto.pl</h3>
                         <p class="g-color--white-opacity">Mamy nadzieję, ze dzięki nam mogłeś poznać swoje miasto na
                             nowo</p>
                     </div>
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
+=======
         <!-- End Links -->
 
         <!-- Copyright -->
@@ -337,6 +368,7 @@
             </div>
         </div>
         <!-- End Copyright -->
+>>>>>>> edcfe50e5a53039016271f6eec8612a1a7f4499e
     </footer>
 </div>
 <!--========== END FOOTER ==========-->
