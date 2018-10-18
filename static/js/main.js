@@ -7,8 +7,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYWNoZSIsImEiOiJjam5kYXhibW8xODRxM3JwOHhhamxod
 
 function getLocation(_position) {
     position = _position;
-    console.log(_position);
-    sock.emit('handshake', {
+    sock.emit('handshake', 
+    {
         "pos": _position['']
     });
 }
@@ -44,18 +44,28 @@ Vue.component('maps', {
     },
     methods: {
         log: function (txt) {
-            console.log(txt);
+            
         }
     },
     created: function () {
-        console.log("created maps");
     },
     mounted: function () {
         this.map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v9'
+            style: 'mapbox://styles/mapbox/streets-v9',
+            logoPosition: "top-left",
+            zoom: 10
         });
-
+        // Add geolocate control to the map.
+        this.map.addControl(new mapboxgl.GeolocateControl({
+        positionOptions: { enableHighAccuracy: true },
+        trackUserLocation: true
+        }));
+        setTimeout(function() {
+            $(".mapboxgl-ctrl-geolocate").click();
+             this.map.zoom = 12;
+        },500);
+        
 
         /*this.informAboutLocalisation('green', "Lokalizacja", "Czy twoja lokalizacja to x,y ( z ) ?", 
         () => {console.log('accepted');},
@@ -199,7 +209,6 @@ new Vue({
             });
         },
         openMapWithFilter: function (filter) {
-            console.log(filter);
             this.showMaps = true;
         },
         localisationSetted: function (str) {
