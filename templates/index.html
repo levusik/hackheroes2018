@@ -108,24 +108,26 @@
                                     </vs-collapse-item>
                                     <vs-collapse-item>
                                             <div slot="header"> Kino </div>
-                                            <vs-checkbox>pobierz rekomendację filmów</vs-checkbox>
                                             <vs-checkbox>Zaznacz kina w pobliżu</vs-checkbox>
+                                            <vs-button v-on:click="">Pokaż rekomendacje</vs-button>
                                     </vs-collapse-item>
                                     <vs-collapse-item>
                                                 <div slot="header"> Kultura </div>
                                                 <vs-checkbox>Zaznacz Zabytki w pobliżu</vs-checkbox>
                                                 <vs-checkbox>Zaznacz Muzea w pobliżu</vs-checkbox>
                                                 <vs-checkbox>Zaznacz galerie sztuki w pobliżu</vs-checkbox>
-                                                <vs-button></vs-button>
                                     </vs-collapse-item>
                                     <vs-collapse-item>
                                             <div slot="header"> Zwiedzaj z UE </div>
                                             <vs-checkbox>pokaż mi zabytki dofinansowane z UE</vs-checkbox>
+                                    <!--
                                     </vs-collapse-item>
-                                    <vs-collapse-item>
+                                        <vs-collapse-item>
                                         <div slot="header"> Urzędy </div>
                                          dodatkowy ficzer, może będzie
                                     </vs-collapse-item>
+                                    -->
+                                    
                                     <vs-collapse-item>
                                     <div slot="header"> Wyświetlanie </div>
                                     <div class="searchContent">
@@ -197,8 +199,7 @@
         <!-- End Arrows -->
     </div>
     <!--========== END SWIPER SLIDER ==========-->
-    <vs-button @click="activeGeoPrompt=true" color="primary" vs-type="border">Run prompt</vs-button>
-    
+
     <vs-prompt
     @vs-cancel="val=''"
     @vs-accept="localisationSetted('Cos')"
@@ -209,7 +210,9 @@
      </div>
    </vs-prompt>
 
+   <keep-alive>
     <maps v-if="showMaps" @close="showMaps = false"></maps>
+   </keep-alive>
     <div class="aboutContent">
         <!-- About -->
         <div class="container g-padding-y-80--xs g-padding-y-125--sm">

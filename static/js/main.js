@@ -1,5 +1,7 @@
 var position = null;
 var sock = null;
+var accuracy = 1000; // acuraccy range in meters ( geolocalization work very bad )
+var actualPosition = {'latitude': 0, 'longitude': 0};
 
 // register map
 mapboxgl.accessToken = 'pk.eyJ1IjoiYWNoZSIsImEiOiJjam5kYXhibW8xODRxM3JwOHhhamxodG92In0.BSenCD_4t1MyCOZw-fP7Ow';
@@ -7,10 +9,10 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYWNoZSIsImEiOiJjam5kYXhibW8xODRxM3JwOHhhamxod
 
 function getLocation(_position) {
     position = _position;
-    sock.emit('handshake', 
-    {
-        "pos": _position['']
-    });
+
+    app.informAboutLocalisation("success", "Lokalizacja", "Ustawilismy twoją pozycję na  " + position.coords.latitude + " " + position.coords.longitude + " . Kontynuowac ?",  () => {     app.localisationSetted(actualPosition['latitude'] + ', ' + actualPosition['longitude']); }, () => { console.log('deny'); });
+    actualPosition['latitude'] = position.coords.latitude;
+    actualPosition['longitude'] = position.coords.longitude;
 }
 
 function respondToErrors(error) {
@@ -44,11 +46,10 @@ Vue.component('maps', {
     },
     methods: {
         log: function (txt) {
-            
+
         }
     },
-    created: function () {
-    },
+    created: function () {},
     mounted: function () {
         this.map = new mapboxgl.Map({
             container: 'map',
@@ -58,14 +59,25 @@ Vue.component('maps', {
         });
         // Add geolocate control to the map.
         this.map.addControl(new mapboxgl.GeolocateControl({
-        positionOptions: { enableHighAccuracy: true },
-        trackUserLocation: true
+            positionOptions: {
+                enableHighAccuracy: true
+            },
+            trackUserLocation: true
         }));
-        setTimeout(function() {
+        setTimeout(function () {
             $(".mapboxgl-ctrl-geolocate").click();
-             this.map.zoom = 12;
-        },500);
-        
+            this.map.zoom = 12;
+        }, 500);
+
+        setTimeout(function () {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(getLocation, respondToErrors, {
+                    enableHighAccuracy: true
+                });
+            } else {
+
+            }
+        }, 200);
 
         /*this.informAboutLocalisation('green', "Lokalizacja", "Czy twoja lokalizacja to x,y ( z ) ?", 
         () => {console.log('accepted');},
@@ -74,7 +86,7 @@ Vue.component('maps', {
     }
 });
 
-new Vue({
+let app = new Vue({
     el: "#app",
     data: {
         activeGeoPrompt: false,
@@ -198,6 +210,9 @@ new Vue({
     },
     delimiters: ['[%', '%]'],
     methods: {
+        test: function () {
+            console.log('xd');
+        },
         informAboutLocalisation: function (_color, _title, _text, _accept_callback, _cancel_callback) {
             this.$vs.dialog({
                 type: 'confirm',
@@ -214,7 +229,7 @@ new Vue({
         localisationSetted: function (str) {
             this.$vs.notify({
                 title: 'Lokalizacja Ustawiona !',
-                text: 'Ustawilismy twoją lokalizację na : ',
+                text: 'Ustawilismy twoją lokalizację na : ' + str,
                 color: 'success',
                 icon: 'check'
             });
@@ -226,14 +241,7 @@ new Vue({
     },
     mounted: function () {
         // get geolocation
-        if (navigator.geolocation) {
-
-            navigator.geolocation.getCurrentPosition(getLocation, respondToErrors, {
-                enableHighAccuracy: true
-            });
-            this.socket.emit('handshake');
+        this.socket.emit('handshake');
             sock = this.socket;
-
-        } else {}
     }
 });
